@@ -1,0 +1,900 @@
+﻿[Script Info]
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 712
+PlayResY: 480
+Timer: 100.0
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Lucida Console,30,&H00FFFFFF,&H00FFFFFF,&H000F0F0F,&H000F0F0F,0,0,0,0,100,100,0,0.00,1,2,3,2,20,20,20,0
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:09.61,0:00:11.78,Default,,0,0,0,,{\an1\pos(250,120)}\h\h\h♪ WOKE UP\NTHIS MORNING ♪
+Dialogue: 0,0:00:11.78,0:00:14.78,Default,,0,0,0,,{\an1\pos(198,120)}♪ GOT YOURSELF\N\h\h\h\hA GUN ♪
+Dialogue: 0,0:00:14.78,0:00:19.15,Default,,0,0,0,,{\an1\pos(198,120)}♪ YOUR MOMMA ALWAYS SAID\NYOU'D BE THE CHOSEN ONE ♪
+Dialogue: 0,0:00:19.15,0:00:21.65,Default,,0,0,0,,{\an1\pos(185,120)}\h\h\h\h\h♪ SHE SAID,\NYOU'RE ONE IN A MILLION ♪
+Dialogue: 0,0:00:21.65,0:00:24.66,Default,,0,0,0,,{\an1\pos(250,120)}♪ YOU GOT TO\NBURN TO SHINE ♪
+Dialogue: 0,0:00:24.66,0:00:27.16,Default,,0,0,0,,{\an1\pos(198,120)}\h\h\h\h♪ BUT YOU WERE\NBORN UNDER A BAD SIGN ♪
+Dialogue: 0,0:00:27.16,0:00:30.30,Default,,0,0,0,,{\an1\pos(185,120)}♪ WITH A BLUE MOON\N\hIN YOUR EYE ♪
+Dialogue: 0,0:00:30.30,0:00:33.16,Default,,0,0,0,,{\an1\pos(198,120)}\h\h\h\h♪ WHEN YOU\NWOKE UP THIS MORNING ♪
+Dialogue: 0,0:00:33.17,0:00:36.18,Default,,0,0,0,,{\an1\pos(198,120)}♪ ALL THAT LOVE\N\h\h\h\hHAD GONE ♪
+Dialogue: 0,0:00:36.17,0:00:38.92,Default,,0,0,0,,{\an1\pos(237,120)}♪ YOUR PAPA NEVER\NTOLD YOU ABOUT ♪
+Dialogue: 0,0:00:39.42,0:00:41.06,Default,,0,0,0,,{\an1\pos(198,96)}♪ RIGHT AND WRONG ♪
+Dialogue: 0,0:00:41.06,0:00:43.68,Default,,0,0,0,,{\an1\pos(198,120)}\h\h\h\h♪ BUT YOU'RE\NLOOKIN' GOOD LATELY ♪
+Dialogue: 0,0:00:43.68,0:00:46.43,Default,,0,0,0,,{\an1\pos(198,120)}♪ I BELIEVE YOU'RE\NFEELIN' FINE ♪
+Dialogue: 0,0:00:46.43,0:00:48.93,Default,,0,0,0,,{\an1\pos(250,120)}♪ BORN UNDER\NA BAD SIGN ♪
+Dialogue: 0,0:00:48.93,0:00:51.07,Default,,0,0,0,,{\an1\pos(198,120)}♪ WITH A BLUE MOON\NIN YOUR EYES ♪
+Dialogue: 0,0:00:52.57,0:00:54.82,Default,,0,0,0,,{\an1\pos(185,96)}♪ WOKE UP THIS MORNING ♪
+Dialogue: 0,0:00:54.82,0:00:58.07,Default,,0,0,0,,{\an1\pos(198,120)}♪ GOT A BLUE MOON\N\h\h\hIN YOUR EYE ♪
+Dialogue: 0,0:01:02.70,0:01:04.96,Default,,0,0,0,,{\an1\pos(250,120)}♪ YOU WOKE UP\NTHIS MORNING ♪
+Dialogue: 0,0:01:05.45,0:01:08.08,Default,,0,0,0,,{\an1\pos(198,120)}\h\h\h\h♪ THE WORLD\NTURNED UPSIDE DOWN ♪
+Dialogue: 0,0:01:08.08,0:01:10.34,Default,,0,0,0,,{\an1\pos(250,120)}♪ THINGS AIN'T\NBEEN THE SAME ♪
+Dialogue: 0,0:01:10.34,0:01:12.95,Default,,0,0,0,,{\an1\pos(198,120)}\h\h\h\h♪ SINCE THE BLUES\NWALKED IN OUR TOWN ♪
+Dialogue: 0,0:01:12.96,0:01:15.22,Default,,0,0,0,,{\an1\pos(198,120)}\h\h\h\h♪ BUT YOU'RE\NONE IN A MILLION ♪
+Dialogue: 0,0:01:15.71,0:01:17.96,Default,,0,0,0,,{\an1\pos(146,120)}♪ 'CAUSE YOU GOT THAT\N\h\h\h\hSHOTGUN SHINE ♪
+Dialogue: 0,0:01:17.96,0:01:19.09,Default,,0,0,0,,{\an1\pos(198,96)}♪ SHAME ABOUT IT ♪
+Dialogue: 0,0:01:19.60,0:01:21.36,Default,,0,0,0,,{\an1\pos(250,120)}♪ BORN UNDER\NA BAD SIGN ♪
+Dialogue: 0,0:01:21.35,0:01:24.47,Default,,0,0,0,,{\an1\pos(198,120)}♪ WITH A BLUE MOON\NIN YOUR EYES ♪
+Dialogue: 0,0:01:24.47,0:01:26.60,Default,,0,0,0,,{\an1\pos(250,120)}\h\h\h♪ WOKE UP\NTHIS MORNING ♪
+Dialogue: 0,0:01:28.10,0:01:30.11,Default,,0,0,0,,{\an1\pos(198,120)}♪ GOT YOURSELF\N\h\h\h\hA GUN ♪
+Dialogue: 0,0:01:31.11,0:01:32.61,Default,,0,0,0,,{\an1\pos(198,96)}♪ GOT YOURSELF A GUN ♪
+Dialogue: 0,0:01:33.73,0:01:35.73,Default,,0,0,0,,{\an1\pos(198,120)}♪ GOT YOURSELF\N\h\h\h\hA GUN ♪
+Dialogue: 0,0:02:27.11,0:02:28.61,Default,,0,0,0,,{\an1\pos(250,432)}\h\h\h\h\h\h\h\h( Pussy )\NHow's your mom, Ton' ?
+Dialogue: 0,0:02:28.61,0:02:30.11,Default,,0,0,0,,{\an1\pos(133,432)}( Tony )\NThe same.
+Dialogue: 0,0:02:30.12,0:02:31.63,Default,,0,0,0,,{\an1\pos(133,432)}But my ex-goomar's cousin,
+Dialogue: 0,0:02:31.62,0:02:33.59,Default,,0,0,0,,{\an1\pos(133,432)}\hI got her coming in\Nto take care of her.
+Dialogue: 0,0:02:33.59,0:02:37.09,Default,,0,0,0,,{\an1\pos(133,432)}Russian girl.
+Dialogue: 0,0:02:37.09,0:02:39.09,Default,,0,0,0,,{\an1\pos(198,432)}\h\h\h\h\h\h\h\h( Pussy )\N\h\h\h\hWho was it telling me\Nabout the Bevilaqua kid ?
+Dialogue: 0,0:02:39.59,0:02:41.59,Default,,0,0,0,,{\an1\pos(198,432)}\h\h\hYou know that family has\Nmoney from construction ?
+Dialogue: 0,0:02:41.59,0:02:43.09,Default,,0,0,0,,{\an1\pos(133,432)}\h\h\h\h\h( Tony )\NThat fucking Matthew...
+Dialogue: 0,0:02:43.10,0:02:44.61,Default,,0,0,0,,{\an1\pos(133,432)}was never any good.
+Dialogue: 0,0:02:44.60,0:02:46.60,Default,,0,0,0,,{\an1\pos(302,432)}\h\h\h\h( Pussy )\NHe sure cried like\Na baby that night.
+Dialogue: 0,0:02:46.60,0:02:50.10,Default,,0,0,0,,{\an1\pos(198,432)}\h\h\hI think the family was\Nrelieved he got taken out.
+Dialogue: 0,0:02:50.10,0:02:52.10,Default,,0,0,0,,{\an1\pos(133,432)}\h( Tony )\NWhat are you\Ngonna eat ?
+Dialogue: 0,0:02:52.11,0:02:54.12,Default,,0,0,0,,{\an1\pos(133,432)}Hey, waiter !
+Dialogue: 0,0:02:54.11,0:02:56.11,Default,,0,0,0,,{\an1\pos(237,432)}( stopping tape )
+Dialogue: 0,0:02:56.11,0:02:58.11,Default,,0,0,0,,{\an1\pos(237,432)}THAT'S THE CLOSEST\NCW-16 EVER GOT TONY
+Dialogue: 0,0:02:58.11,0:03:01.11,Default,,0,0,0,,{\an1\pos(250,432)}\h\h\h\hTO DISCUSSING\N\h\h\h\hTHE BEVILAQUA\NMURDER ON TAPE ?
+Dialogue: 0,0:03:01.11,0:03:03.11,Default,,0,0,0,,{\an1\pos(133,432)}I THINK AT THIS POINT\NIT'S TIME TO CONSIDER
+Dialogue: 0,0:03:03.12,0:03:05.13,Default,,0,0,0,,{\an1\pos(146,432)}16 BONPENSIERO COMPOST.
+Dialogue: 0,0:03:06.62,0:03:08.12,Default,,0,0,0,,{\an1\pos(250,432)}BONPENSIERO...
+Dialogue: 0,0:03:08.12,0:03:11.62,Default,,0,0,0,,{\an1\pos(302,432)}\h\h\hWAS CRUCIAL TO\N\h\h\h\hTHE WEBISTICS\NSTOCK FRAUD CASE.
+Dialogue: 0,0:03:11.62,0:03:13.63,Default,,0,0,0,,{\an1\pos(198,432)}SO, RICO-WISE.
+Dialogue: 0,0:03:15.63,0:03:17.13,Default,,0,0,0,,{\an1\pos(146,432)}THE AIRLINE TICKETS.
+Dialogue: 0,0:03:17.13,0:03:18.63,Default,,0,0,0,,{\an1\pos(146,432)}MAIL AND WIRE FRAUD.
+Dialogue: 0,0:03:18.63,0:03:20.13,Default,,0,0,0,,{\an1\pos(146,432)}\h\h\h\hESPECIALLY IF\NTHE MOTHER TESTIFIES
+Dialogue: 0,0:03:20.13,0:03:22.13,Default,,0,0,0,,{\an1\pos(146,432)}IN EXCHANGE FOR IMMUNITY.
+Dialogue: 0,0:03:22.14,0:03:24.65,Default,,0,0,0,,{\an1\pos(250,432)}\h\h\h\hC'MON, WHOSE\N\h\h\hOWN MOTHER'S GONNA\NTESTIFY AGAINST HIM ?
+Dialogue: 0,0:03:24.64,0:03:26.64,Default,,0,0,0,,{\an1\pos(133,432)}\hI SAY FOCUS ON\NHIS GARBAGE BUSINESS.
+Dialogue: 0,0:03:28.14,0:03:29.14,Default,,0,0,0,,{\an1\pos(237,432)}EXTORTION,
+Dialogue: 0,0:03:29.14,0:03:30.64,Default,,0,0,0,,{\an1\pos(198,432)}INTERSTATE TRUCKING.
+Dialogue: 0,0:03:30.64,0:03:33.14,Default,,0,0,0,,{\an1\pos(289,432)}\hIT'S ALSO THE MOST\N\hLIKELY TO YIELD A\NPROSECUTABLE MURDER.
+Dialogue: 0,0:03:33.65,0:03:35.15,Default,,0,0,0,,{\an1\pos(133,432)}RICHIE APRILE,\N\hEXACTLY.
+Dialogue: 0,0:03:35.65,0:03:38.15,Default,,0,0,0,,{\an1\pos(146,432)}\h\h\hNO DOUBT ABOUT\N\h\h\h\hIT THE CARTEL\NHAD HIM WHACKED.
+Dialogue: 0,0:03:38.15,0:03:40.65,Default,,0,0,0,,{\an1\pos(146,432)}OKAY, GARBAGE, BUT TONY\NSHOWS REAL DUE DILIGENCE
+Dialogue: 0,0:03:40.65,0:03:42.65,Default,,0,0,0,,{\an1\pos(146,432)}WHEN IT COMES TO\NELECTRONIC DEBUGGING.
+Dialogue: 0,0:03:42.66,0:03:44.17,Default,,0,0,0,,{\an1\pos(146,432)}WHAT ABOUT\NTHE HOME ?
+Dialogue: 0,0:03:44.66,0:03:46.66,Default,,0,0,0,,{\an1\pos(198,432)}BONPENSIERO TOLD ME\NHIM AND TONY TALK\NIN THE BASEMENT THERE
+Dialogue: 0,0:03:47.16,0:03:48.16,Default,,0,0,0,,{\an1\pos(198,432)}ON MORE THAN\NONE OCCASION.
+Dialogue: 0,0:03:48.16,0:03:50.16,Default,,0,0,0,,{\an1\pos(250,432)}HIS OWN BASEMENT,\N\h\h\h\hREALLY ?
+Dialogue: 0,0:03:50.16,0:03:51.66,Default,,0,0,0,,{\an1\pos(302,432)}\h\h\hWHERE'S THE DUE\NDILIGENCE THERE ?
+Dialogue: 0,0:03:51.66,0:03:54.17,Default,,0,0,0,,{\an1\pos(133,432)}TONY AVOIDS TALKING BUSINESS\N\hIN THE HOUSE IF HE CAN.
+Dialogue: 0,0:03:54.17,0:03:56.67,Default,,0,0,0,,{\an1\pos(133,432)}BUT IF HE HAS TO, HE'LL TAKE\N\hSOMEBODY OUT BY THE POOL.
+Dialogue: 0,0:03:56.67,0:03:59.67,Default,,0,0,0,,{\an1\pos(198,432)}EXCEPT THERE HE\NFEARS PARABOLICS.
+Dialogue: 0,0:03:59.67,0:04:02.17,Default,,0,0,0,,{\an1\pos(198,432)}\h\h\hTHE BASEMENT\N\h\h\h\hHAS THESE\NNOISY A.C. DUCTS.
+Dialogue: 0,0:04:02.18,0:04:04.69,Default,,0,0,0,,{\an1\pos(146,432)}HE TURNS ON THE AIR\NAND HE FEELS IT'S SAFE.
+Dialogue: 0,0:04:07.66,0:04:09.63,Default,,0,0,0,,{\an1\pos(237,432)}\h"SURREPTITIOUSLY\NENTER SAID PREMISES
+Dialogue: 0,0:04:09.63,0:04:11.13,Default,,0,0,0,,{\an1\pos(250,432)}\h\h\h\hAND LEAVE\NWITHOUT NOTICE."
+Dialogue: 0,0:04:11.13,0:04:12.63,Default,,0,0,0,,{\an1\pos(250,432)}THIS IS A "SNEAK\N'N PEEK" WARRANT.
+Dialogue: 0,0:04:12.64,0:04:13.65,Default,,0,0,0,,{\an1\pos(406,432)}CORRECT,\NYOUR HONOR.
+Dialogue: 0,0:04:14.14,0:04:15.64,Default,,0,0,0,,{\an1\pos(185,432)}\hI SAID YOU COULD ENTER\NTHE BASEMENT TO DROP A WIRE.
+Dialogue: 0,0:04:15.64,0:04:17.14,Default,,0,0,0,,{\an1\pos(198,432)}I MEAN, HOW MANY TIMES\NDO WE HAVE TO IMPACT
+Dialogue: 0,0:04:17.14,0:04:18.64,Default,,0,0,0,,{\an1\pos(237,432)}\hTHIS FAMILY'S\NRIGHT TO PRIVACY ?
+Dialogue: 0,0:04:18.64,0:04:20.14,Default,,0,0,0,,{\an1\pos(146,432)}FIRST, WHEN THE\NHOME IS EMPTY,
+Dialogue: 0,0:04:20.14,0:04:21.14,Default,,0,0,0,,{\an1\pos(133,432)}WE ENTER TO TAKE\N\hSOUND LEVELS,
+Dialogue: 0,0:04:21.14,0:04:23.14,Default,,0,0,0,,{\an1\pos(146,432)}DETERMINE WHERE TO\NBEST PLACE THE WIRE.
+Dialogue: 0,0:04:23.15,0:04:24.66,Default,,0,0,0,,{\an1\pos(289,432)}ONCE THAT'S DECIDED,
+Dialogue: 0,0:04:24.65,0:04:26.65,Default,,0,0,0,,{\an1\pos(250,432)}THE LISTENING DEVICE\N\h\h\hWILL BE FABRICATED
+Dialogue: 0,0:04:27.15,0:04:28.65,Default,,0,0,0,,{\an1\pos(250,432)}AND WE WILL REENTER\N\h\h\h\hTO INSTALL IT.
+Dialogue: 0,0:04:28.65,0:04:32.65,Default,,0,0,0,,{\an1\pos(250,432)}SEE THAT THEY LIMIT\NBOTH ENTRANCES TO\NTHE BASEMENT ONLY.
+Dialogue: 0,0:04:32.66,0:04:35.17,Default,,0,0,0,,{\an1\pos(237,432)}\hIT'S NOT A\N"BETTER HOMES AND\N\hGARDENS" TOUR.
+Dialogue: 0,0:04:37.16,0:04:38.66,Default,,0,0,0,,{\an1\pos(289,432)}HAPPY HUNTING.
+Dialogue: 0,0:04:52.18,0:04:55.69,Default,,0,0,0,,{\an1\pos(133,432)}\h\h\h\h\h\h\h\h\h( Tony )\NTHE COFFEEMAKER'S GOTTA BE\NPLUGGED IN FOR IT TO WORK !
+Dialogue: 0,0:04:58.15,0:05:00.15,Default,,0,0,0,,{\an1\pos(354,432)}\h\h\h\h( agent )\N\h\h\h\hSAME TIME\NAS YESTERDAY.
+Dialogue: 0,0:05:05.66,0:05:07.17,Default,,0,0,0,,{\an1\pos(146,432)}LISTEN, I'LL SAVE\NYOU SOME GAS.
+Dialogue: 0,0:05:07.16,0:05:09.16,Default,,0,0,0,,{\an1\pos(133,432)}\hI'M JUST GOING\N\hDOWN TO THE\NSTATIONARY STORE,
+Dialogue: 0,0:05:09.16,0:05:10.66,Default,,0,0,0,,{\an1\pos(146,432)}\h\h\h\hTHEN I'LL\NBE RIGHT BACK.
+Dialogue: 0,0:05:10.66,0:05:12.16,Default,,0,0,0,,{\an1\pos(146,432)}YOU DON'T GOTTA FOLLOW\NME LIKE YESTERDAY.
+Dialogue: 0,0:05:12.16,0:05:13.16,Default,,0,0,0,,{\an1\pos(250,432)}ALRIGHT ?
+Dialogue: 0,0:05:13.16,0:05:16.16,Default,,0,0,0,,{\an1\pos(250,432)}( honking )
+Dialogue: 0,0:05:16.17,0:05:19.18,Default,,0,0,0,,{\an1\pos(146,432)}IN ORDER FOR THE S.E.T. TEAM\NTO DROP A WIRE IN THAT HOUSE,
+Dialogue: 0,0:05:19.17,0:05:21.17,Default,,0,0,0,,{\an1\pos(146,432)}THERE'S GOTTA BE NOBODY AT\NHOME FOR AT LEAST TWO HOURS.
+Dialogue: 0,0:05:21.67,0:05:23.17,Default,,0,0,0,,{\an1\pos(146,432)}ACTUALLY, THE MAID IS\NGONE FOR A LITTLE WHILE
+Dialogue: 0,0:05:23.17,0:05:24.17,Default,,0,0,0,,{\an1\pos(133,432)}ON TUESDAY AFTERNOONS.
+Dialogue: 0,0:05:24.17,0:05:25.67,Default,,0,0,0,,{\an1\pos(185,432)}GONE WHY ?
+Dialogue: 0,0:05:25.68,0:05:28.19,Default,,0,0,0,,{\an1\pos(133,432)}\hENGLISH LANGUAGE\NCLASSES, SHE'S GETTING\NA U.S. CITIZENSHIP.
+Dialogue: 0,0:05:28.18,0:05:31.18,Default,,0,0,0,,{\an1\pos(146,432)}SHE'S GONE FROM THE HOUSE\NFROM 1:00 TILL ABOUT 2:45.
+Dialogue: 0,0:05:31.18,0:05:32.68,Default,,0,0,0,,{\an1\pos(354,432)}AN HOUR CLASS,
+Dialogue: 0,0:05:32.68,0:05:34.68,Default,,0,0,0,,{\an1\pos(133,432)}THEN SHE AND HER\NHUSBAND USUALLY HAVE\N\hA PICNIC LUNCH.
+Dialogue: 0,0:05:35.18,0:05:38.19,Default,,0,0,0,,{\an1\pos(146,432)}HE'S APPLYING FOR\NCITIZENSHIP, TOO.
+Dialogue: 0,0:05:38.19,0:05:40.19,Default,,0,0,0,,{\an1\pos(250,432)}WHAT'S HIS\NNAME AGAIN ?
+Dialogue: 0,0:05:41.19,0:05:43.19,Default,,0,0,0,,{\an1\pos(146,432)}STASIU\NWOSILIUS.
+Dialogue: 0,0:05:43.19,0:05:45.19,Default,,0,0,0,,{\an1\pos(250,432)}I'LL RUN THAT BY\NANTI-TERRORISM...
+Dialogue: 0,0:05:45.19,0:05:46.19,Default,,0,0,0,,{\an1\pos(341,432)}JUST FOR LAUGHS.
+Dialogue: 0,0:05:46.70,0:05:49.21,Default,,0,0,0,,{\an1\pos(133,432)}CARMELA'S GONE THE SAME HOURS\NON TUESDAY, TENNIS LESSONS.
+Dialogue: 0,0:05:49.20,0:05:51.20,Default,,0,0,0,,{\an1\pos(133,432)}AS LONG AS WE HAVE SOMEBODY\N\hON HER DURING TENNIS,
+Dialogue: 0,0:05:51.20,0:05:52.70,Default,,0,0,0,,{\an1\pos(198,432)}AND ON THE MAID\N\h\h\hAND TONY
+Dialogue: 0,0:05:52.70,0:05:54.20,Default,,0,0,0,,{\an1\pos(198,432)}AND EVERYBODY THAT'S\NGOT A KEY TO THE HOUSE.
+Dialogue: 0,0:05:54.70,0:05:56.20,Default,,0,0,0,,{\an1\pos(133,432)}THE DAUGHTER'S AT\NCOLUMBIA, LIVES\NIN THE DORMS.
+Dialogue: 0,0:05:56.71,0:05:59.22,Default,,0,0,0,,{\an1\pos(250,432)}WHY RISK IT,\NSHE'S 45 MINUTES\NAWAY VIA THE G.W.
+Dialogue: 0,0:05:59.21,0:06:00.71,Default,,0,0,0,,{\an1\pos(289,432)}PUT SOMEBODY ON HER.
+Dialogue: 0,0:06:00.71,0:06:02.21,Default,,0,0,0,,{\an1\pos(237,432)}\hANYONE OF THEM\NBREAKS FOR HOME,
+Dialogue: 0,0:06:02.21,0:06:05.21,Default,,0,0,0,,{\an1\pos(185,432)}\h\h\h\hWE NEED TO WARN\NTHE S.E.T. TEAM TO GET\NTHE HELL OUT OF THERE.
+Dialogue: 0,0:06:21.23,0:06:22.73,Default,,0,0,0,,{\an1\pos(198,432)}\h\h\h\h( rapping )\N♪ ALIAS NAME IS VIPER ♪
+Dialogue: 0,0:06:22.73,0:06:24.23,Default,,0,0,0,,{\an1\pos(250,432)}♪ BALLISTICS ♪
+Dialogue: 0,0:06:24.23,0:06:25.23,Default,,0,0,0,,{\an1\pos(185,432)}\h\h\h\h\h♪ CRUSHING\NTHE CAPITALISTIC SYSTEM ♪
+Dialogue: 0,0:06:25.74,0:06:28.25,Default,,0,0,0,,{\an1\pos(146,432)}♪ CRUSHING THE MENTALITY,\N\h\h\hCRUSHING THE AGONY ♪
+Dialogue: 0,0:06:28.24,0:06:31.24,Default,,0,0,0,,{\an1\pos(198,432)}\h\h\h\h♪ CRUSHING THE\NACADEMY OF BLASPHEMY ♪
+Dialogue: 0,0:06:41.75,0:06:43.75,Default,,0,0,0,,{\an1\pos(146,432)}\h\h\h\hUNIT ONE,\NTHIS IS CONTROL.
+Dialogue: 0,0:06:43.75,0:06:45.25,Default,,0,0,0,,{\an1\pos(146,432)}\h\h\h\hBABY BING\NHEADED YOUR WAY.
+Dialogue: 0,0:06:45.25,0:06:47.26,Default,,0,0,0,,{\an1\pos(354,432)}\h\h\h\h( male )\NCopy, control.
+Dialogue: 0,0:07:11.78,0:07:14.78,Default,,0,0,0,,{\an1\pos(146,432)}\h\h\h\hUNIT TWO, YOU GOT\NBADABING HEADED YOUR WAY.
+Dialogue: 0,0:07:15.79,0:07:17.30,Default,,0,0,0,,{\an1\pos(237,432)}( chewing )\NEXCUSE ME.
+Dialogue: 0,0:07:17.29,0:07:19.79,Default,,0,0,0,,{\an1\pos(146,432)}\h\h\h\hUNIT THREE, MRS.\NBING ALSO IN MOTION.
+Dialogue: 0,0:07:19.79,0:07:23.29,Default,,0,0,0,,{\an1\pos(250,432)}♪ I'M A FOOL TO DO\NYOUR DIRTY WORK ♪
+Dialogue: 0,0:07:23.29,0:07:25.79,Default,,0,0,0,,{\an1\pos(289,432)}♪ OH, YEAH ♪
+Dialogue: 0,0:07:25.80,0:07:31.81,Default,,0,0,0,,{\an1\pos(198,432)}\h\h\h\h♪ I DON'T WANT TO DO\NYOUR DIRTY WORK NO MORE ♪
+Dialogue: 0,0:07:34.80,0:07:44.31,Default,,0,0,0,,{\an1\pos(146,432)}( "Peter Gunn Theme" playing )
+Dialogue: 0,0:07:44.31,0:07:47.32,Default,,0,0,0,,{\an1\pos(198,432)}\h\h\h\h\h\h\h\h( male )\NUnit five, you have visual\Ncontact of Princess Bing ?
+Dialogue: 0,0:07:47.32,0:07:48.82,Default,,0,0,0,,{\an1\pos(146,432)}ROGER, CONTROL.
+Dialogue: 0,0:07:48.82,0:08:00.83,Default,,0,0,0,,{\an1\pos(146,432)}( "Peter Gunn Theme"\N\h\h\h\hcontinues )
+Dialogue: 0,0:08:00.83,0:08:03.33,Default,,0,0,0,,{\an1\pos(133,432)}\h\h\h\h\h\h\h\h\hUNIT FOUR,\NIN APPROXIMATELY ONE MINUTE,\N\h\h\h\hYOU'LL HAVE THE MAID,
+Dialogue: 0,0:08:03.33,0:08:04.33,Default,,0,0,0,,{\an1\pos(146,432)}GRAY JETTA.
+Dialogue: 0,0:08:04.33,0:08:06.33,Default,,0,0,0,,{\an1\pos(133,432)}\h\h\h\hS.E. TEAM, THE\NLOCATION READS SECURE.
+Dialogue: 0,0:08:06.34,0:08:07.85,Default,,0,0,0,,{\an1\pos(133,432)}YOU HAVE ONE HOUR\NAND 30 MINUTES.
+Dialogue: 0,0:08:07.84,0:08:08.84,Default,,0,0,0,,{\an1\pos(354,432)}\h\h\h( male )\NRoger, Control.
+Dialogue: 0,0:08:25.35,0:08:27.86,Default,,0,0,0,,{\an1\pos(133,432)}\h\h\h\h\h( male )\NCONTROL, WE'RE HEADED INTO\N\hTHE SAUSAGE FACTORY.
+Dialogue: 0,0:08:29.36,0:08:31.36,Default,,0,0,0,,{\an1\pos(185,432)}♪ I'LL BE WATCHING YOU ♪
+Dialogue: 0,0:08:31.86,0:08:35.36,Default,,0,0,0,,{\an1\pos(146,432)}♪ EVERY BREATH YOU TAKE,\N\h\h\hEVERY MOVE YOU MAKE ♪
+Dialogue: 0,0:08:35.36,0:08:37.87,Default,,0,0,0,,{\an1\pos(185,432)}♪ EVERY BOND YOU BREAK ♪
+Dialogue: 0,0:08:37.87,0:08:39.87,Default,,0,0,0,,{\an1\pos(250,432)}\h\h\h♪ I'LL BE\NWATCHING YOU ♪
+Dialogue: 0,0:08:39.87,0:08:41.37,Default,,0,0,0,,{\an1\pos(198,432)}♪ EVERY SINGLE DAY ♪
+Dialogue: 0,0:08:41.37,0:08:43.37,Default,,0,0,0,,{\an1\pos(237,432)}♪ EVERY WORD\N\hYOU SAY ♪
+Dialogue: 0,0:08:43.87,0:08:45.87,Default,,0,0,0,,{\an1\pos(198,432)}♪ EVERY GAME YOU PLAY ♪
+Dialogue: 0,0:08:45.88,0:08:47.89,Default,,0,0,0,,{\an1\pos(250,432)}\h\h\h♪ I'LL BE\NWATCHING YOU ♪
+Dialogue: 0,0:08:47.88,0:08:49.88,Default,,0,0,0,,{\an1\pos(250,432)}♪ EVERY MOVE\NYOU MAKE ♪
+Dialogue: 0,0:08:49.88,0:08:51.88,Default,,0,0,0,,{\an1\pos(198,432)}♪ EVERY VOW YOU BREAK ♪
+Dialogue: 0,0:08:51.88,0:08:54.38,Default,,0,0,0,,{\an1\pos(250,432)}♪ EVERY SMILE\NYOU FAKE ♪
+Dialogue: 0,0:08:54.38,0:08:56.38,Default,,0,0,0,,{\an1\pos(250,432)}\h\h\h♪ I'LL BE\NWATCHING YOU ♪
+Dialogue: 0,0:08:56.39,0:08:57.90,Default,,0,0,0,,{\an1\pos(198,432)}♪ EVERY SINGLE DAY ♪
+Dialogue: 0,0:08:57.89,0:09:00.39,Default,,0,0,0,,{\an1\pos(237,432)}♪ EVERY WORD\N\hYOU SAY ♪
+Dialogue: 0,0:09:00.39,0:09:02.39,Default,,0,0,0,,{\an1\pos(198,432)}♪ EVERY GAME YOU PLAY ♪
+Dialogue: 0,0:09:02.39,0:09:04.39,Default,,0,0,0,,{\an1\pos(250,432)}\h\h\h♪ I'LL BE\NWATCHING YOU ♪
+Dialogue: 0,0:09:18.41,0:09:19.91,Default,,0,0,0,,{\an1\pos(146,432)}OH, LOOK AT THIS.
+Dialogue: 0,0:09:19.91,0:09:20.91,Default,,0,0,0,,{\an1\pos(302,432)}JUST IN TIME\NFOR LUNCH.
+Dialogue: 0,0:09:21.41,0:09:22.41,Default,,0,0,0,,{\an1\pos(198,432)}SET A PLATE.
+Dialogue: 0,0:09:22.41,0:09:24.41,Default,,0,0,0,,{\an1\pos(250,432)}YOU GOT IT.
+Dialogue: 0,0:09:24.41,0:09:26.91,Default,,0,0,0,,{\an1\pos(302,432)}I HAD HIM DART I\NT IN THE SHOULDER\NLIKE SHE WANTED
+Dialogue: 0,0:09:26.92,0:09:29.43,Default,,0,0,0,,{\an1\pos(250,432)}AND REINFORCED THE HEM.
+Dialogue: 0,0:09:29.42,0:09:30.92,Default,,0,0,0,,{\an1\pos(302,432)}IT SHOULDN'T HAVE\NTORN LIKE THAT.
+Dialogue: 0,0:09:30.92,0:09:32.42,Default,,0,0,0,,{\an1\pos(302,432)}BEAUTIFUL COAT.
+Dialogue: 0,0:09:32.42,0:09:33.42,Default,,0,0,0,,{\an1\pos(341,432)}WHAT THE FUCK\N\hYOU DOING ?
+Dialogue: 0,0:09:33.42,0:09:34.92,Default,,0,0,0,,{\an1\pos(354,432)}LUNCH IS READY.
+Dialogue: 0,0:09:34.92,0:09:36.42,Default,,0,0,0,,{\an1\pos(302,432)}WASH MY HANDS.
+Dialogue: 0,0:09:36.43,0:09:37.94,Default,,0,0,0,,{\an1\pos(133,432)}YOU JUST WASHED\NYOUR HANDS.
+Dialogue: 0,0:09:38.43,0:09:39.43,Default,,0,0,0,,{\an1\pos(393,432)}THEN I TIED\N\hMY SHOES.
+Dialogue: 0,0:09:39.43,0:09:40.93,Default,,0,0,0,,{\an1\pos(341,432)}SO WHAT ?
+Dialogue: 0,0:09:40.93,0:09:43.43,Default,,0,0,0,,{\an1\pos(185,432)}I CAN'T STAND TOUCHING\N\hFUCKING SHOE LACES.
+Dialogue: 0,0:09:43.43,0:09:44.93,Default,,0,0,0,,{\an1\pos(146,432)}YOU EVER GO TO\NTIE YOUR SHOES
+Dialogue: 0,0:09:45.43,0:09:47.44,Default,,0,0,0,,{\an1\pos(146,432)}AND YOU NOTICE THE END\NOF YOUR LACES ARE WET ?
+Dialogue: 0,0:09:47.44,0:09:48.94,Default,,0,0,0,,{\an1\pos(237,432)}FROM WHAT ?
+Dialogue: 0,0:09:48.94,0:09:50.44,Default,,0,0,0,,{\an1\pos(237,432)}\hWHY WOULD\NTHEY BE WET ?
+Dialogue: 0,0:09:50.44,0:09:51.94,Default,,0,0,0,,{\an1\pos(354,432)}\h\h\h\hI GOT NO\NFUCKING IDEA.
+Dialogue: 0,0:09:51.94,0:09:54.94,Default,,0,0,0,,{\an1\pos(146,432)}YOU GO IN PUBLIC BATHROOMS,\N\h\h\hYOU STAND AT THE URINALS.
+Dialogue: 0,0:09:54.94,0:09:55.94,Default,,0,0,0,,{\an1\pos(250,432)}OH, C'MON,\NWILL YA ?
+Dialogue: 0,0:09:55.95,0:09:57.46,Default,,0,0,0,,{\an1\pos(237,432)}\hHE'S ASKING ME,\NI'M TELLIN' HIM.
+Dialogue: 0,0:09:57.45,0:09:58.95,Default,,0,0,0,,{\an1\pos(237,432)}\hAND FRANKLY,\NIT'S IMPORTANT.
+Dialogue: 0,0:09:58.95,0:10:00.95,Default,,0,0,0,,{\an1\pos(198,432)}\h\h\hEVEN IF THE\NLACE IS DRY,
+Dialogue: 0,0:10:00.95,0:10:02.95,Default,,0,0,0,,{\an1\pos(133,432)}AND EVEN IF YOU\NDON'T TOUCH THE\NBODY OF THE SHOE.
+Dialogue: 0,0:10:02.95,0:10:05.45,Default,,0,0,0,,{\an1\pos(198,432)}BACTERIA AND\NVIRUS MIGRATE\NFROM THE SOLE UP.
+Dialogue: 0,0:10:05.45,0:10:06.95,Default,,0,0,0,,{\an1\pos(146,432)}YOU SEE THIS ON TV ?
+Dialogue: 0,0:10:06.96,0:10:09.47,Default,,0,0,0,,{\an1\pos(354,432)}I GOTTA WATCH\NTV TO FIGURE\NOUT THE WORLD ?
+Dialogue: 0,0:10:09.46,0:10:12.46,Default,,0,0,0,,{\an1\pos(289,432)}YOUR AVERAGE MEN'S\N\hSHIT HOUSE IS A\N\hFUCKING SEWER.
+Dialogue: 0,0:10:12.46,0:10:13.96,Default,,0,0,0,,{\an1\pos(354,432)}\h\h\hYOU LOOK AT\NLADIES' JOHNS,
+Dialogue: 0,0:10:13.96,0:10:16.46,Default,,0,0,0,,{\an1\pos(198,432)}YOU COULD EAT MAPLE WALNUT\NICE CREAM FROM THE TOILETS.
+Dialogue: 0,0:10:16.97,0:10:18.98,Default,,0,0,0,,{\an1\pos(250,432)}AH, THERE'S EXCEPTIONS.
+Dialogue: 0,0:10:18.97,0:10:20.97,Default,,0,0,0,,{\an1\pos(354,432)}BUT A MEN'S...
+Dialogue: 0,0:10:20.97,0:10:22.97,Default,,0,0,0,,{\an1\pos(302,432)}\h\h\h\hPISS ALL OVER\NTHE FUCKING FLOOR.
+Dialogue: 0,0:10:22.97,0:10:25.97,Default,,0,0,0,,{\an1\pos(302,432)}URINALS JAMMED\NWITH CIGARETTES\NAND MOTHBALL CAKES.
+Dialogue: 0,0:10:25.98,0:10:28.99,Default,,0,0,0,,{\an1\pos(185,432)}\h\h\h\hAND THEY CAN POUR ALL\NTHE FUCKING ICE THEY WANT\N\hDOWN THERE, MY FRIEND,
+Dialogue: 0,0:10:28.98,0:10:30.98,Default,,0,0,0,,{\an1\pos(354,432)}IT DOES NOTHING\NTO KILL GERMS.
+Dialogue: 0,0:10:30.98,0:10:32.48,Default,,0,0,0,,{\an1\pos(341,432)}EVEN IF YOU KEEP\NYOUR SHOES TIED,
+Dialogue: 0,0:10:32.48,0:10:34.48,Default,,0,0,0,,{\an1\pos(198,432)}\h\h\hAND YOU'RE NOT DRAGGING\NYOUR LACES THROUGH URINE.
+Dialogue: 0,0:10:34.48,0:10:35.98,Default,,0,0,0,,{\an1\pos(289,432)}SHUT THE FUCK UP !
+Dialogue: 0,0:10:38.49,0:10:40.49,Default,,0,0,0,,{\an1\pos(237,432)}\h( agent )\N\hCONTROL, THIS\NIS S.E.T. FOUR,
+Dialogue: 0,0:10:40.49,0:10:41.99,Default,,0,0,0,,{\an1\pos(198,432)}I HAVE ACCESS\NTO THE BOX.
+Dialogue: 0,0:10:41.99,0:10:45.49,Default,,0,0,0,,{\an1\pos(133,432)}I'M DISABLING THE LINE\N\hTO THE PHONE COMPANY.
+Dialogue: 0,0:10:45.49,0:10:48.50,Default,,0,0,0,,{\an1\pos(133,432)}\hPHONE LINE TO\NTHE ALARM COMPANY'S\N\hNOW NEUTRALIZED.
+Dialogue: 0,0:10:48.50,0:10:50.00,Default,,0,0,0,,{\an1\pos(133,432)}GO AHEAD,\N\hCUT IT.
+Dialogue: 0,0:10:50.00,0:10:52.50,Default,,0,0,0,,{\an1\pos(302,432)}HOLD YOUR BREATH,\N\h\h\hI'M CLIPPING\NTHE SIREN WIRE.
+Dialogue: 0,0:10:55.00,0:10:56.00,Default,,0,0,0,,{\an1\pos(341,432)}PICK IT, WILSON.
+Dialogue: 0,0:11:00.01,0:11:02.01,Default,,0,0,0,,{\an1\pos(302,432)}\h\h\h\h( agent )\N\h\h\hControl, we are\Nworking on entry,
+Dialogue: 0,0:11:02.01,0:11:03.51,Default,,0,0,0,,{\an1\pos(250,432)}\h\h\h\h\h\h\h\hestimate\Nthree or four minutes.
+Dialogue: 0,0:11:20.03,0:11:22.03,Default,,0,0,0,,{\an1\pos(237,432)}YOU'RE NOT HUNGRY ?
+Dialogue: 0,0:11:23.03,0:11:24.53,Default,,0,0,0,,{\an1\pos(198,432)}HAVE SOME BRACIOLL'.
+Dialogue: 0,0:11:24.53,0:11:26.03,Default,,0,0,0,,{\an1\pos(198,432)}NO, THANKS.
+Dialogue: 0,0:11:27.04,0:11:29.55,Default,,0,0,0,,{\an1\pos(146,432)}I GOT NO APPETITE.
+Dialogue: 0,0:11:31.04,0:11:32.54,Default,,0,0,0,,{\an1\pos(146,432)}TODAY WOULD'VE\NBEEN OUR BIRTHDAY.
+Dialogue: 0,0:11:32.54,0:11:34.54,Default,,0,0,0,,{\an1\pos(263,432)}{\i1}OUR{\r}  BIRTHDAY ?
+Dialogue: 0,0:11:37.05,0:11:38.06,Default,,0,0,0,,{\an1\pos(289,432)}OH, YEAH.
+Dialogue: 0,0:11:39.05,0:11:41.05,Default,,0,0,0,,{\an1\pos(302,432)}SPOONS.
+Dialogue: 0,0:11:42.05,0:11:43.05,Default,,0,0,0,,{\an1\pos(289,432)}HEY, HAPPY BIRTHDAY.
+Dialogue: 0,0:11:43.05,0:11:44.05,Default,,0,0,0,,{\an1\pos(133,432)}HOW OLD ARE YOU ?
+Dialogue: 0,0:11:44.05,0:11:45.05,Default,,0,0,0,,{\an1\pos(198,432)}51.
+Dialogue: 0,0:11:45.55,0:11:47.56,Default,,0,0,0,,{\an1\pos(198,432)}WHO WAS BORN FIRST,\NYOU OR SPOONS ?
+Dialogue: 0,0:11:47.56,0:11:51.06,Default,,0,0,0,,{\an1\pos(133,432)}\hPHILIP WAS MY KID\NBROTHER BY 11 MINUTES.
+Dialogue: 0,0:11:51.06,0:11:53.06,Default,,0,0,0,,{\an1\pos(250,432)}\h\h\hHEY, IT WAS A\NFUCKING TRAGEDY.
+Dialogue: 0,0:11:55.06,0:11:57.06,Default,,0,0,0,,{\an1\pos(250,432)}WHAT ARE YOU\N\h\h\hGONNA DO ?
+Dialogue: 0,0:11:57.07,0:11:59.58,Default,,0,0,0,,{\an1\pos(198,432)}IT'S THE LIFE WE CHOSE,\N\h\h\hAM I RIGHT, PAT ?
+Dialogue: 0,0:11:59.57,0:12:02.57,Default,,0,0,0,,{\an1\pos(146,432)}BUT MY BROTHER WAS NEVER\NA HEAVY GUY WITH ANYBODY.
+Dialogue: 0,0:12:02.57,0:12:05.57,Default,,0,0,0,,{\an1\pos(198,432)}HE WAS A SWEET,\NGENTLE MAN.
+Dialogue: 0,0:12:05.57,0:12:09.08,Default,,0,0,0,,{\an1\pos(133,432)}\hYOUR BROTHER WAS\NYOUR TWIN BROTHER.
+Dialogue: 0,0:12:09.08,0:12:10.58,Default,,0,0,0,,{\an1\pos(406,432)}PHILLY.
+Dialogue: 0,0:12:10.58,0:12:14.58,Default,,0,0,0,,{\an1\pos(289,432)}\hFRIENDS LIKE US\NCALLED HIM "SPOONS".
+Dialogue: 0,0:12:15.58,0:12:17.59,Default,,0,0,0,,{\an1\pos(198,432)}SOMEBODY WHACKED\N\h\h\h\hTHE KID
+Dialogue: 0,0:12:18.09,0:12:20.09,Default,,0,0,0,,{\an1\pos(250,432)}\h\h\h\hA COUPLE MONTHS\NBEFORE YOU CAME OVER.
+Dialogue: 0,0:12:20.09,0:12:21.59,Default,,0,0,0,,{\an1\pos(289,432)}YOU BIG MOUTH FUCK !
+Dialogue: 0,0:12:21.59,0:12:22.59,Default,,0,0,0,,{\an1\pos(146,432)}FUCK !
+Dialogue: 0,0:12:24.09,0:12:29.10,Default,,0,0,0,,{\an1\pos(133,432)}IT'S YOU IDENTICAL\N\hTWIN OR THE\NOTHER KIND ?
+Dialogue: 0,0:12:29.10,0:12:30.10,Default,,0,0,0,,{\an1\pos(302,432)}IDENTICAL.
+Dialogue: 0,0:12:30.10,0:12:32.10,Default,,0,0,0,,{\an1\pos(133,432)}HERE, HAVE SOMETHING\N\h\h\h\h\hTO EAT.
+Dialogue: 0,0:12:33.60,0:12:35.10,Default,,0,0,0,,{\an1\pos(146,432)}THERE'S A TWIN BOND.
+Dialogue: 0,0:12:36.11,0:12:38.12,Default,,0,0,0,,{\an1\pos(185,432)}\hUNLESS YOU\NEXPERIENCED IT
+Dialogue: 0,0:12:38.11,0:12:39.61,Default,,0,0,0,,{\an1\pos(146,432)}YOU CAN'T UNDERSTAND IT.
+Dialogue: 0,0:12:39.61,0:12:40.61,Default,,0,0,0,,{\an1\pos(302,432)}YOU OKAY WITH\NONIONS, RIGHT ?
+Dialogue: 0,0:12:40.61,0:12:42.61,Default,,0,0,0,,{\an1\pos(133,432)}\hMAYBE IT SOUNDS\NFUCKING CRAZY TO YOU.
+Dialogue: 0,0:12:43.61,0:12:45.61,Default,,0,0,0,,{\an1\pos(133,432)}HEY, NOTHING SOUNDS\N\hCRAZY ANYMORE.
+Dialogue: 0,0:12:45.61,0:12:46.61,Default,,0,0,0,,{\an1\pos(198,432)}THE OLDER I GET.
+Dialogue: 0,0:12:46.62,0:12:48.13,Default,,0,0,0,,{\an1\pos(250,432)}( clearing throat )
+Dialogue: 0,0:12:48.12,0:12:50.12,Default,,0,0,0,,{\an1\pos(250,432)}IT'S OVER, RIGHT ?
+Dialogue: 0,0:12:55.62,0:12:58.63,Default,,0,0,0,,{\an1\pos(185,432)}DON'T IT HAPPEN THAT\N\hIDENTICAL TWINS\N\hA LOT OF TIMES,
+Dialogue: 0,0:12:58.63,0:13:00.63,Default,,0,0,0,,{\an1\pos(146,432)}THEY'LL DIE WITHIN A COUPLE\N\h\h\h\hOF DAYS OF EACH OTHER ?
+Dialogue: 0,0:13:01.13,0:13:02.63,Default,,0,0,0,,{\an1\pos(133,432)}\hTHAT WOULD'VE BEEN\NOKAY WITH ME, BELIEVE ME.
+Dialogue: 0,0:13:02.63,0:13:04.63,Default,,0,0,0,,{\an1\pos(250,432)}HEY !
+Dialogue: 0,0:13:07.64,0:13:10.14,Default,,0,0,0,,{\an1\pos(250,432)}I MISS HIM SO MUCH.
+Dialogue: 0,0:13:10.14,0:13:11.64,Default,,0,0,0,,{\an1\pos(237,432)}WELL, THAT'S NATURAL.
+Dialogue: 0,0:13:12.64,0:13:14.14,Default,,0,0,0,,{\an1\pos(250,432)}BUT YOU'RE\NWITH US NOW,
+Dialogue: 0,0:13:14.14,0:13:16.64,Default,,0,0,0,,{\an1\pos(146,432)}SO WHY DON'T YOU LEAVE\N\h\h\h\hTHE MORBID SHIT
+Dialogue: 0,0:13:16.65,0:13:20.16,Default,,0,0,0,,{\an1\pos(146,432)}\h\h\h\hBACK AT JUNIOR'S CREW\NAND HAVE A HAPPY BIRTHDAY.
+Dialogue: 0,0:13:20.15,0:13:21.15,Default,,0,0,0,,{\an1\pos(133,432)}\h( Furio )\NHAPPY BIRTHDAY.
+Dialogue: 0,0:13:21.15,0:13:22.65,Default,,0,0,0,,{\an1\pos(406,432)}( Tony )\N\h\h\hSALUT.
+Dialogue: 0,0:13:22.65,0:13:24.15,Default,,0,0,0,,{\an1\pos(237,432)}\hYOU WANT TO\NCOMMIT SUICIDE,
+Dialogue: 0,0:13:24.15,0:13:26.65,Default,,0,0,0,,{\an1\pos(198,432)}TIE YOUR SHOES AND HAVE\NA BITE OF BRACIOLL'.
+Dialogue: 0,0:13:26.66,0:13:28.67,Default,,0,0,0,,{\an1\pos(250,432)}( laughing )
+Dialogue: 0,0:13:30.16,0:13:32.16,Default,,0,0,0,,{\an1\pos(250,432)}\h\h\h\hHEY,  {\i1}STOONAD,\N{\r}IT'S A JOKE, C'MON !
+Dialogue: 0,0:13:39.17,0:13:41.17,Default,,0,0,0,,{\an1\pos(159,432)}{\i1}HELLO.
+Dialogue: 0,0:13:42.17,0:13:45.17,Default,,0,0,0,,{\an1\pos(133,432)}\h\h\h\hGOD DON'T\NTRANSFER ME NOW.
+Dialogue: 0,0:13:45.17,0:13:48.18,Default,,0,0,0,,{\an1\pos(302,432)}ADRIANA LA CERVA.
+Dialogue: 0,0:13:49.68,0:13:52.18,Default,,0,0,0,,{\an1\pos(146,432)}HOW GREEN WAS MY\NFUCKING VALLEY ?
+Dialogue: 0,0:13:52.68,0:13:53.18,Default,,0,0,0,,{\an1\pos(146,432)}CARMELA.
+Dialogue: 0,0:13:54.18,0:13:55.18,Default,,0,0,0,,{\an1\pos(458,432)}HI, ED.
+Dialogue: 0,0:13:55.18,0:13:56.68,Default,,0,0,0,,{\an1\pos(497,432)}HEY.
+Dialogue: 0,0:13:56.69,0:13:59.20,Default,,0,0,0,,{\an1\pos(185,432)}\h\h\h\hTHIS IS MY FRIEND\NI WAS TELLING YOU ABOUT,\N\h\h\h\hADRIANA LA CERVA.
+Dialogue: 0,0:13:59.19,0:14:00.19,Default,,0,0,0,,{\an1\pos(354,432)}ED RESTUCCIA.
+Dialogue: 0,0:14:00.69,0:14:02.69,Default,,0,0,0,,{\an1\pos(237,432)}\hWELL, I'M DELIGHTED TO\NTEACH ANY PAL OF CARM'S.
+Dialogue: 0,0:14:02.69,0:14:05.19,Default,,0,0,0,,{\an1\pos(289,432)}\h\h\h\hSHE'S MY MOST\NDISCIPLINED STUDENT.
+Dialogue: 0,0:14:05.19,0:14:07.19,Default,,0,0,0,,{\an1\pos(133,432)}\hPERFECT MUSCLE TONE\NDOESN'T HURT EITHER.
+Dialogue: 0,0:14:08.70,0:14:11.20,Default,,0,0,0,,{\an1\pos(146,432)}UNFORTUNATELY, LISTEN,\NI HAVE TO APOLOGIZE, CARM.
+Dialogue: 0,0:14:11.70,0:14:12.70,Default,,0,0,0,,{\an1\pos(198,432)}\h\h\hI THOUGHT I\NCALLED EVERYBODY.
+Dialogue: 0,0:14:12.70,0:14:14.70,Default,,0,0,0,,{\an1\pos(185,432)}\hBUT I'M NOT GONNA BE\NTEACHING HERE ANYMORE.
+Dialogue: 0,0:14:16.71,0:14:18.22,Default,,0,0,0,,{\an1\pos(185,432)}EVERYTHING'S ALRIGHT,\N\h\h\h\h\hI HOPE.
+Dialogue: 0,0:14:18.21,0:14:21.71,Default,,0,0,0,,{\an1\pos(133,432)}\hYEAH, BASICALLY, KITTY GOT\NTHIS DOT-COM JOB IN SAN DIEGO.
+Dialogue: 0,0:14:21.71,0:14:24.21,Default,,0,0,0,,{\an1\pos(198,432)}SO, WE'RE MOVING.
+Dialogue: 0,0:14:24.21,0:14:25.71,Default,,0,0,0,,{\an1\pos(302,432)}I DIDN'T EVEN KNOW\NYOU WERE MARRIED.
+Dialogue: 0,0:14:25.71,0:14:27.21,Default,,0,0,0,,{\an1\pos(237,432)}YEAH.
+Dialogue: 0,0:14:28.22,0:14:29.72,Default,,0,0,0,,{\an1\pos(146,432)}BUT YOU'RE IN LUCK.
+Dialogue: 0,0:14:29.72,0:14:31.22,Default,,0,0,0,,{\an1\pos(302,432)}BIRGIT HERE IS\NTAKING OVER FOR ME.
+Dialogue: 0,0:14:31.72,0:14:32.72,Default,,0,0,0,,{\an1\pos(354,432)}HOW WONDERFUL.
+Dialogue: 0,0:14:33.22,0:14:35.22,Default,,0,0,0,,{\an1\pos(198,432)}\h\h\hI NEVER EVEN\NPLAYED LIKE ONCE.
+Dialogue: 0,0:14:35.22,0:14:36.72,Default,,0,0,0,,{\an1\pos(198,432)}THAT'S WHY\NYOU'RE HERE.
+Dialogue: 0,0:14:37.23,0:14:38.74,Default,,0,0,0,,{\an1\pos(302,432)}\h\h\h\hOH, CARM,\NBEFORE YOU START,
+Dialogue: 0,0:14:38.73,0:14:41.23,Default,,0,0,0,,{\an1\pos(250,432)}IT'LL REALLY HELP IF\N\h\h\h\hI CAN GET LETTERS\N\h\h\hOF RECOMMENDATION.
+Dialogue: 0,0:14:51.74,0:14:53.74,Default,,0,0,0,,{\an1\pos(146,432)}\h\h\hOH, BY THE WAY,\N\h\h\h\hTHIS COMPANY\NKITTY'S JOINING,
+Dialogue: 0,0:14:53.74,0:14:55.24,Default,,0,0,0,,{\an1\pos(133,432)}THEY SELL ANTIQUES\N\hON THE WEB,
+Dialogue: 0,0:14:55.24,0:14:56.74,Default,,0,0,0,,{\an1\pos(133,432)}SO IF YOU EVER WANTED\N\hA SPECIAL PIECE...
+Dialogue: 0,0:14:56.75,0:14:59.76,Default,,0,0,0,,{\an1\pos(237,432)}\hI DON'T HAVE ANTIQUES,\NMY HOUSE IS TRADITIONAL.
+Dialogue: 0,0:14:59.75,0:15:01.75,Default,,0,0,0,,{\an1\pos(250,432)}UM, I'M CUTTING INTO\N\h\h\hYOUR LESSON, SORRY.
+Dialogue: 0,0:15:01.75,0:15:03.25,Default,,0,0,0,,{\an1\pos(302,432)}CARMELA, BYE.
+Dialogue: 0,0:15:03.75,0:15:04.75,Default,,0,0,0,,{\an1\pos(146,432)}NICE MEETING YOU.
+Dialogue: 0,0:15:04.75,0:15:05.75,Default,,0,0,0,,{\an1\pos(198,432)}TAKE CARE.
+Dialogue: 0,0:15:09.76,0:15:12.26,Default,,0,0,0,,{\an1\pos(185,432)}( marching band playing )
+Dialogue: 0,0:15:18.27,0:15:20.27,Default,,0,0,0,,{\an1\pos(185,432)}BABY BING IS LEAVING\N\hSCHOOL PROPERTY.
+Dialogue: 0,0:15:20.27,0:15:22.27,Default,,0,0,0,,{\an1\pos(133,432)}I'm on it.
+Dialogue: 0,0:15:23.27,0:15:24.77,Default,,0,0,0,,{\an1\pos(289,432)}TAKING ORDERS, DUDE.
+Dialogue: 0,0:15:24.77,0:15:25.27,Default,,0,0,0,,{\an1\pos(341,432)}PEACH SNAPPLE.
+Dialogue: 0,0:15:25.27,0:15:26.27,Default,,0,0,0,,{\an1\pos(133,432)}ME, TOO.
+Dialogue: 0,0:15:26.28,0:15:27.28,Default,,0,0,0,,{\an1\pos(406,432)}I ONLY GOT\NTWO BUCKS.
+Dialogue: 0,0:15:29.78,0:15:32.28,Default,,0,0,0,,{\an1\pos(146,432)}MRS. CELESTE ALMOST SAW\NMY BOARD IN MY LOCKER.
+Dialogue: 0,0:15:32.28,0:15:34.78,Default,,0,0,0,,{\an1\pos(146,432)}\h\h\h\hWHAT KIND OF RETARD RULE\NIS THAT, NO BOARDS AT SCHOOL ?
+Dialogue: 0,0:15:34.78,0:15:37.28,Default,,0,0,0,,{\an1\pos(146,432)}WHY CAN'T THEY SEE HOW USEFUL\NBOARDS WOULD BE AT SCHOOL ?
+Dialogue: 0,0:15:37.29,0:15:38.80,Default,,0,0,0,,{\an1\pos(237,432)}LIKE IN THE CAFETERIA.
+Dialogue: 0,0:15:38.79,0:15:41.79,Default,,0,0,0,,{\an1\pos(185,432)}\hEACH PERSON ON LINE COULD\NJUST ROLL PAST THE FOOD PANS
+Dialogue: 0,0:15:41.79,0:15:44.29,Default,,0,0,0,,{\an1\pos(133,432)}OR WHATEVER AND MAKE\N\hTHE DECISIONS IN\NLIKE HALF THE TIME.
+Dialogue: 0,0:15:44.29,0:15:45.29,Default,,0,0,0,,{\an1\pos(354,432)}YEAH.
+Dialogue: 0,0:15:45.29,0:15:46.79,Default,,0,0,0,,{\an1\pos(146,432)}THAT FOOD TASTES\NLIKE ASS ANYWAY.
+Dialogue: 0,0:15:54.30,0:15:56.30,Default,,0,0,0,,{\an1\pos(198,432)}ALRIGHT, HIT IT !
+Dialogue: 0,0:16:06.82,0:16:08.33,Default,,0,0,0,,{\an1\pos(302,432)}I ONLY HAD ENOUGH\NFOR ONE SNAPPLE.
+Dialogue: 0,0:16:08.32,0:16:09.82,Default,,0,0,0,,{\an1\pos(198,432)}A.J., GIVE ME A HIT\NOF YOUR SNAPPLE.
+Dialogue: 0,0:16:09.82,0:16:10.82,Default,,0,0,0,,{\an1\pos(146,432)}DON'T BACKWASH.
+Dialogue: 0,0:16:12.32,0:16:14.32,Default,,0,0,0,,{\an1\pos(198,432)}I'M NOT DOING ANYTHING\N\h\h\hFOR THIS SCHOOL.
+Dialogue: 0,0:16:14.32,0:16:15.82,Default,,0,0,0,,{\an1\pos(354,432)}MY MOM'S ALL,\N"GET INVOLVED".
+Dialogue: 0,0:16:15.82,0:16:17.83,Default,,0,0,0,,{\an1\pos(302,432)}IT'S LIKE, "HELLO,\NI AM INVOLVED...
+Dialogue: 0,0:16:17.83,0:16:18.83,Default,,0,0,0,,{\an1\pos(354,432)}WITH BOARDING."
+Dialogue: 0,0:16:19.33,0:16:20.33,Default,,0,0,0,,{\an1\pos(302,432)}OH, IT'S EGON.
+Dialogue: 0,0:16:20.83,0:16:21.83,Default,,0,0,0,,{\an1\pos(406,432)}HEY, KOSMA.
+Dialogue: 0,0:16:22.33,0:16:23.83,Default,,0,0,0,,{\an1\pos(146,432)}OKAY !
+Dialogue: 0,0:16:29.34,0:16:30.34,Default,,0,0,0,,{\an1\pos(250,432)}WHERE YOU\NBEEN, DUDE ?
+Dialogue: 0,0:16:30.34,0:16:31.34,Default,,0,0,0,,{\an1\pos(146,432)}ORTHODONTIST.
+Dialogue: 0,0:16:31.34,0:16:32.34,Default,,0,0,0,,{\an1\pos(237,432)}S'UP, SLIM ?
+Dialogue: 0,0:16:32.34,0:16:33.84,Default,,0,0,0,,{\an1\pos(250,432)}WHAT CLASS YOU\NGUYS DITCHIN' ?
+Dialogue: 0,0:16:33.84,0:16:34.84,Default,,0,0,0,,{\an1\pos(393,432)}ASSEMBLY.
+Dialogue: 0,0:16:34.84,0:16:36.34,Default,,0,0,0,,{\an1\pos(302,432)}EXCELLENT JERSEY.
+Dialogue: 0,0:16:36.85,0:16:38.36,Default,,0,0,0,,{\an1\pos(354,432)}YEAH, WAIT...
+Dialogue: 0,0:16:38.35,0:16:39.85,Default,,0,0,0,,{\an1\pos(354,432)}YOU WENT OUT\NFOR J.V. BALL ?
+Dialogue: 0,0:16:39.85,0:16:41.35,Default,,0,0,0,,{\an1\pos(302,432)}YEAH.
+Dialogue: 0,0:16:41.35,0:16:43.35,Default,,0,0,0,,{\an1\pos(354,432)}EXCUSE ME, MR.\NQUADRIPLEGIC\NOF THE FUTURE.
+Dialogue: 0,0:16:43.35,0:16:44.85,Default,,0,0,0,,{\an1\pos(341,432)}\hREMIND ME NOT\N\hTO VISIT YOU\NIN THE HOSPITAL.
+Dialogue: 0,0:16:45.35,0:16:46.35,Default,,0,0,0,,{\an1\pos(133,432)}IT IS A COOL SHIRT.
+Dialogue: 0,0:16:46.36,0:16:47.36,Default,,0,0,0,,{\an1\pos(302,432)}YEAH.
+Dialogue: 0,0:16:49.36,0:16:50.36,Default,,0,0,0,,{\an1\pos(406,432)}WHOA !
+Dialogue: 0,0:16:50.36,0:16:51.36,Default,,0,0,0,,{\an1\pos(302,432)}WHAT POSITION ?
+Dialogue: 0,0:16:51.36,0:16:52.36,Default,,0,0,0,,{\an1\pos(406,432)}DOUCHEBAG.
+Dialogue: 0,0:17:08.38,0:17:09.88,Default,,0,0,0,,{\an1\pos(250,432)}OKAY, CUT IT !
+Dialogue: 0,0:17:16.89,0:17:19.40,Default,,0,0,0,,{\an1\pos(133,432)}\h\h\h\h\h( male )\N... JELL-O SHOTS...
+Dialogue: 0,0:17:19.39,0:17:21.39,Default,,0,0,0,,{\an1\pos(354,432)}( chanting )\N\h\h\hON BHS,
+Dialogue: 0,0:17:21.39,0:17:22.89,Default,,0,0,0,,{\an1\pos(458,432)}ON BHS,
+Dialogue: 0,0:17:22.89,0:17:25.39,Default,,0,0,0,,{\an1\pos(302,432)}\h\h\h\hFIGHT RIGHT\NTHROUGH THAT LINE !
+Dialogue: 0,0:17:25.39,0:17:27.90,Default,,0,0,0,,{\an1\pos(302,432)}\h\h\h\hRUN THAT BALL\NTO THE GOAL LINE !
+Dialogue: 0,0:17:29.90,0:17:31.40,Default,,0,0,0,,{\an1\pos(198,432)}\h\h\h\h\h\h\hY'ALL\NSHOULD'VE COME.
+Dialogue: 0,0:17:32.90,0:17:33.90,Default,,0,0,0,,{\an1\pos(250,432)}WHERE'D YOU GO ?
+Dialogue: 0,0:17:33.90,0:17:37.40,Default,,0,0,0,,{\an1\pos(146,432)}\h\h\hWE STARTED OFF\NAT SMOKE'S AS USUAL,
+Dialogue: 0,0:17:37.41,0:17:41.42,Default,,0,0,0,,{\an1\pos(146,432)}\h\h\h\hBUT WE WOUND UP\NAT THIS PLACE RUBY\NFOOS 'ROUND, UM...
+Dialogue: 0,0:17:41.41,0:17:44.41,Default,,0,0,0,,{\an1\pos(133,432)}BROADWAY AND 65th\N\hOR SOMETHING.
+Dialogue: 0,0:17:44.91,0:17:47.41,Default,,0,0,0,,{\an1\pos(133,432)}IT WAS SO FUN.
+Dialogue: 0,0:17:47.42,0:17:50.43,Default,,0,0,0,,{\an1\pos(198,432)}\h\h\hGOD, DID I\NGET HAMMERED.
+Dialogue: 0,0:17:50.42,0:17:51.92,Default,,0,0,0,,{\an1\pos(250,432)}DON'T YOU HAVE\NA QUIZ TODAY ?
+Dialogue: 0,0:17:51.92,0:17:54.92,Default,,0,0,0,,{\an1\pos(146,432)}FROSH WEEK TECHNICALLY\NENDED AT MIDNIGHT.
+Dialogue: 0,0:17:54.92,0:17:56.42,Default,,0,0,0,,{\an1\pos(146,432)}WHAT DO THEY EXPECT ?
+Dialogue: 0,0:17:56.43,0:17:57.94,Default,,0,0,0,,{\an1\pos(133,432)}I'LL STUDY NOW.
+Dialogue: 0,0:17:57.93,0:17:59.43,Default,,0,0,0,,{\an1\pos(250,432)}\h\h\h\hI KNOW, I\NHAVE A BIO LAB,
+Dialogue: 0,0:17:59.43,0:18:01.43,Default,,0,0,0,,{\an1\pos(146,432)}\h\h\h\hI HAVEN'T READ\NANY OF THE CHAPTERS.
+Dialogue: 0,0:18:02.43,0:18:04.43,Default,,0,0,0,,{\an1\pos(198,432)}AWW...
+Dialogue: 0,0:18:04.43,0:18:05.93,Default,,0,0,0,,{\an1\pos(146,432)}\h\h\hSTILL MISS\NNEW JERSEY ?
+Dialogue: 0,0:18:05.93,0:18:08.44,Default,,0,0,0,,{\an1\pos(302,432)}\h\h\hIT'S ONLY LIKE\NHALF AN HOUR AWAY.
+Dialogue: 0,0:18:08.44,0:18:10.44,Default,,0,0,0,,{\an1\pos(250,432)}\h\h\h\hIT'S JUST\NTHIS TRANSITION.
+Dialogue: 0,0:18:10.94,0:18:11.94,Default,,0,0,0,,{\an1\pos(237,432)}IT'S A LOT OF WORK.
+Dialogue: 0,0:18:11.94,0:18:14.94,Default,,0,0,0,,{\an1\pos(133,432)}I JUST THINK NEW YORK\N\hIS AN EXPERIENCE
+Dialogue: 0,0:18:14.94,0:18:16.94,Default,,0,0,0,,{\an1\pos(146,432)}THAT UNALTERABLY\NCHANGES A PERSON.
+Dialogue: 0,0:18:17.45,0:18:18.46,Default,,0,0,0,,{\an1\pos(250,432)}IT IS REALLY GREAT.
+Dialogue: 0,0:18:18.45,0:18:21.45,Default,,0,0,0,,{\an1\pos(146,432)}ALL THIS FREEDOM\N\h\h\h\hOF COLLEGE.
+Dialogue: 0,0:18:23.95,0:18:26.95,Default,,0,0,0,,{\an1\pos(133,432)}♪ IF YOU CAN ♪
+Dialogue: 0,0:18:27.96,0:18:29.46,Default,,0,0,0,,{\an1\pos(133,432)}♪ MAKE IT HERE ♪
+Dialogue: 0,0:18:29.46,0:18:31.46,Default,,0,0,0,,{\an1\pos(146,432)}♪ YOU'LL MAKE IT\N\h\h\h\hBOOM, BOOM ♪
+Dialogue: 0,0:18:31.46,0:18:32.96,Default,,0,0,0,,{\an1\pos(198,432)}♪ ANYWHERE ♪
+Dialogue: 0,0:18:32.96,0:18:34.96,Default,,0,0,0,,{\an1\pos(237,432)}\hWHEN DID YOU HAVE\NYOUR LAST COCKTAIL ?
+Dialogue: 0,0:18:34.96,0:18:37.46,Default,,0,0,0,,{\an1\pos(146,432)}11:30 THIS MORNING.
+Dialogue: 0,0:18:37.47,0:18:39.43,Default,,0,0,0,,{\an1\pos(237,432)}JESUS, CAITLIN.
+Dialogue: 0,0:18:39.42,0:18:41.42,Default,,0,0,0,,{\an1\pos(198,432)}( loud sirens outside )
+Dialogue: 0,0:18:57.94,0:18:59.94,Default,,0,0,0,,{\an1\pos(133,432)}"WHAT IS THE MOST\N\hIMPORTANT RIGHT
+Dialogue: 0,0:18:59.94,0:19:01.94,Default,,0,0,0,,{\an1\pos(133,432)}GUARANTEED TO\NUNITED STATES\N\hCITIZENS ?"
+Dialogue: 0,0:19:01.94,0:19:03.44,Default,,0,0,0,,{\an1\pos(354,432)}RIGHT TO VOTE.
+Dialogue: 0,0:19:05.94,0:19:07.95,Default,,0,0,0,,{\an1\pos(133,432)}SPECIAL CAPERS\N\hFROM ITALY.
+Dialogue: 0,0:19:07.95,0:19:09.95,Default,,0,0,0,,{\an1\pos(146,432)}SOPRANO KIDS\NDON'T LIKE THEM.
+Dialogue: 0,0:19:11.45,0:19:13.95,Default,,0,0,0,,{\an1\pos(133,432)}"WHO WROTE 'THE STAR\N\hSPANGLED BANNER' ?"
+Dialogue: 0,0:19:13.95,0:19:15.45,Default,,0,0,0,,{\an1\pos(302,432)}MARTIN LUTHER KING.
+Dialogue: 0,0:19:15.45,0:19:17.45,Default,,0,0,0,,{\an1\pos(198,432)}\h\h\h\hSTASIU,\NYOU KNOW THIS.
+Dialogue: 0,0:19:17.46,0:19:19.47,Default,,0,0,0,,{\an1\pos(250,432)}I WANT TO EAT.
+Dialogue: 0,0:19:21.46,0:19:22.96,Default,,0,0,0,,{\an1\pos(198,432)}FRANCIS SCOTT KEY.
+Dialogue: 0,0:19:26.47,0:19:28.98,Default,,0,0,0,,{\an1\pos(133,432)}"WHAT HOLIDAY WAS CELEBRATED\N\hFOR THE FIRST TIME
+Dialogue: 0,0:19:29.47,0:19:30.97,Default,,0,0,0,,{\an1\pos(146,432)}BY THE AMERICAN COLONISTS ?"
+Dialogue: 0,0:19:30.97,0:19:32.47,Default,,0,0,0,,{\an1\pos(250,432)}MARTIN LUTHER KING.
+Dialogue: 0,0:19:32.47,0:19:33.47,Default,,0,0,0,,{\an1\pos(250,432)}STASIU !
+Dialogue: 0,0:19:33.47,0:19:35.97,Default,,0,0,0,,{\an1\pos(133,432)}THAT'S ANSWER\NTO NUMBER 49,
+Dialogue: 0,0:19:35.97,0:19:38.48,Default,,0,0,0,,{\an1\pos(146,432)}"WHO WAS CIVIL\NRIGHTS LEADER ?"
+Dialogue: 0,0:19:41.48,0:19:43.48,Default,,0,0,0,,{\an1\pos(354,432)}WHICH SANDWICH\NIS FOR YOU ?
+Dialogue: 0,0:19:43.48,0:19:44.98,Default,,0,0,0,,{\an1\pos(198,432)}I DON'T CARE.
+Dialogue: 0,0:20:00.00,0:20:01.50,Default,,0,0,0,,{\an1\pos(250,432)}READY.
+Dialogue: 0,0:20:02.00,0:20:04.00,Default,,0,0,0,,{\an1\pos(341,432)}START SHOOTING\N\hOVER HERE.
+Dialogue: 0,0:20:05.00,0:20:07.00,Default,,0,0,0,,{\an1\pos(289,432)}BACK IN LODZ,
+Dialogue: 0,0:20:07.01,0:20:11.02,Default,,0,0,0,,{\an1\pos(250,432)}I WAS AN ENGINEER\NWITH 20 EMPLOYEES
+Dialogue: 0,0:20:11.01,0:20:14.01,Default,,0,0,0,,{\an1\pos(198,432)}AND A GRANT FROM THE STATE\NTO DO AUTONOMOUS RESEARCH.
+Dialogue: 0,0:20:15.51,0:20:18.02,Default,,0,0,0,,{\an1\pos(302,432)}OH, IT BORES YOU ?
+Dialogue: 0,0:20:22.52,0:20:24.02,Default,,0,0,0,,{\an1\pos(146,432)}DON'T TAKE THOSE\NSTEAK KNIVES OUT.
+Dialogue: 0,0:20:24.52,0:20:27.02,Default,,0,0,0,,{\an1\pos(133,432)}PUT THEM WITH CAPERS,\N\hI TAKE THEM HOME.
+Dialogue: 0,0:20:40.04,0:20:42.54,Default,,0,0,0,,{\an1\pos(133,432)}THAT'S JUST FOR\NANTHONY JR.
+Dialogue: 0,0:20:42.54,0:20:44.54,Default,,0,0,0,,{\an1\pos(146,432)}\h\h\hLOOKS LIKE THEY'RE\NEXPECTING WORLD WAR III.
+Dialogue: 0,0:20:44.54,0:20:46.54,Default,,0,0,0,,{\an1\pos(302,432)}\h\h\h\hMORE LIKELY\NTHE COLUMBO WARS.
+Dialogue: 0,0:20:47.55,0:20:49.56,Default,,0,0,0,,{\an1\pos(302,432)}\h\h\hHEY, HE'S GOT\NTHE BLACK & DECKER.
+Dialogue: 0,0:20:49.55,0:20:52.05,Default,,0,0,0,,{\an1\pos(302,432)}I GOT ONE OF THOSE.
+Dialogue: 0,0:20:58.56,0:21:00.56,Default,,0,0,0,,{\an1\pos(237,432)}\h120-GALLON\NWATER HEATER.
+Dialogue: 0,0:21:00.56,0:21:03.06,Default,,0,0,0,,{\an1\pos(146,432)}MY HOUSE WE'RE SHIVERING\NAFTER A SHOWER AND A HALF.
+Dialogue: 0,0:21:03.06,0:21:06.06,Default,,0,0,0,,{\an1\pos(250,432)}WHOA, WAIT A\NMINUTE, GO BACK.
+Dialogue: 0,0:21:07.57,0:21:09.58,Default,,0,0,0,,{\an1\pos(133,432)}LOOK AT THE BROWN WATER,\NRIGHT THERE, FREEZE IT.
+Dialogue: 0,0:21:10.07,0:21:10.57,Default,,0,0,0,,{\an1\pos(198,432)}WHAT ?
+Dialogue: 0,0:21:11.07,0:21:12.07,Default,,0,0,0,,{\an1\pos(302,432)}YOU DON'T SEE IT ?
+Dialogue: 0,0:21:13.57,0:21:16.07,Default,,0,0,0,,{\an1\pos(237,432)}CREEP FORWARD, GIVE US\N\hSOME MAGNIFICATION.
+Dialogue: 0,0:21:17.58,0:21:19.09,Default,,0,0,0,,{\an1\pos(185,432)}THAT BABY'S\NGONNA BLOW.
+Dialogue: 0,0:21:19.08,0:21:20.58,Default,,0,0,0,,{\an1\pos(146,432)}MY DAD WAS A PLUMBER.
+Dialogue: 0,0:21:20.58,0:21:22.58,Default,,0,0,0,,{\an1\pos(146,432)}TONY'S GOT ABOUT SIX MONTHS\NLEFT TO GO ON THAT LINING.
+Dialogue: 0,0:21:22.58,0:21:24.58,Default,,0,0,0,,{\an1\pos(133,432)}AW, IT'S A SHAME THAT\NWE CAN'T WARN HIM.
+Dialogue: 0,0:21:25.08,0:21:27.08,Default,,0,0,0,,{\an1\pos(198,432)}MAYBE DURING THE DISCOVERY\NPHASE OF HIS RICO TRIAL,
+Dialogue: 0,0:21:27.09,0:21:29.10,Default,,0,0,0,,{\an1\pos(198,432)}WE CAN INFORM HIS LAWYER\NTHAT TONY NEEDS A PLUMBER.
+Dialogue: 0,0:21:29.09,0:21:31.09,Default,,0,0,0,,{\an1\pos(146,432)}EXCEPT THAT'S\NAT LEAST A\NYEAR FROM NOW
+Dialogue: 0,0:21:31.09,0:21:33.09,Default,,0,0,0,,{\an1\pos(146,432)}AND BY THAT\NTIME... BOOM !
+Dialogue: 0,0:21:35.09,0:21:38.10,Default,,0,0,0,,{\an1\pos(302,432)}OKAY, NOW YOU SEE\NTHAT LAMP THERE ?
+Dialogue: 0,0:21:55.61,0:21:58.12,Default,,0,0,0,,{\an1\pos(302,432)}IS THAT THE C-140\NMICROPHONE ?
+Dialogue: 0,0:21:58.12,0:21:59.62,Default,,0,0,0,,{\an1\pos(198,432)}\h\h\h\hTHEY TOOK\NSOUND READINGS.
+Dialogue: 0,0:21:59.62,0:22:01.12,Default,,0,0,0,,{\an1\pos(198,432)}THAT'S A NEW ONE.
+Dialogue: 0,0:22:01.12,0:22:03.62,Default,,0,0,0,,{\an1\pos(250,432)}ASSUMPTION IS\NTHE WISEGUYS\NSTAND AND TALK
+Dialogue: 0,0:22:03.62,0:22:05.62,Default,,0,0,0,,{\an1\pos(198,432)}\h\h\h\hWHERE THE AIR\NCONDITIONING'S LOUDEST.
+Dialogue: 0,0:22:05.62,0:22:07.62,Default,,0,0,0,,{\an1\pos(198,432)}\h\h\h\hAND THAT'S WHERE\NWE'RE GONNA PLACE IT.
+Dialogue: 0,0:22:30.65,0:22:33.15,Default,,0,0,0,,{\an1\pos(289,432)}WHEN'S THIS PUPPY\N\hGOING IN ?
+Dialogue: 0,0:22:34.15,0:22:35.65,Default,,0,0,0,,{\an1\pos(198,432)}TOMORROW.
+Dialogue: 0,0:22:56.17,0:22:58.68,Default,,0,0,0,,{\an1\pos(198,432)}OKAY, FELLAS AND GALS,\N\h\h\h\hOUR BIG DAY.
+Dialogue: 0,0:22:58.68,0:23:00.68,Default,,0,0,0,,{\an1\pos(302,432)}AND AS I SPEAK,\NI HAVE BABY BING...
+Dialogue: 0,0:23:00.68,0:23:03.18,Default,,0,0,0,,{\an1\pos(250,432)}RIGHT ON TIME.
+Dialogue: 0,0:23:03.18,0:23:04.68,Default,,0,0,0,,{\an1\pos(289,432)}HANDING OFF TO\N\hYOU, GEORGE.
+Dialogue: 0,0:23:12.19,0:23:14.69,Default,,0,0,0,,{\an1\pos(133,432)}I'm on Baby Bing's\Ncar pool vehicle.
+Dialogue: 0,0:23:24.70,0:23:27.20,Default,,0,0,0,,{\an1\pos(250,432)}\h\h\h\hFURIO GIUNTA\NCADILLAC DTS RETURNING.
+Dialogue: 0,0:23:27.71,0:23:30.22,Default,,0,0,0,,{\an1\pos(185,432)}WENT PAST ME UP THE STREET\N\hABOUT FIVE MINUTES AGO.
+Dialogue: 0,0:23:30.71,0:23:31.71,Default,,0,0,0,,{\an1\pos(198,432)}WELL, WELL, WELL.
+Dialogue: 0,0:23:31.71,0:23:34.21,Default,,0,0,0,,{\an1\pos(133,432)}DER BINGLE'S UP EARLY TODAY,\N\hHE'S IN THE CADDY.
+Dialogue: 0,0:23:34.21,0:23:36.21,Default,,0,0,0,,{\an1\pos(302,432)}\h\h\h\h( male )\NCopied, I've got\N\h\h\hthe handoff.
+Dialogue: 0,0:23:36.21,0:23:37.71,Default,,0,0,0,,{\an1\pos(354,432)}ROGER THAT.
+Dialogue: 0,0:24:02.74,0:24:04.24,Default,,0,0,0,,{\an1\pos(354,432)}HOW'S THE NEW\NSTOCK DOING ?
+Dialogue: 0,0:24:04.24,0:24:06.24,Default,,0,0,0,,{\an1\pos(133,432)}UP THREE AT THE CLOSE\NOF THE DOW YESTERDAY.
+Dialogue: 0,0:24:06.24,0:24:07.74,Default,,0,0,0,,{\an1\pos(146,432)}ANOTHER TWO\NSO FAR TODAY.
+Dialogue: 0,0:24:08.25,0:24:09.75,Default,,0,0,0,,{\an1\pos(341,432)}BEAUTIFUL.
+Dialogue: 0,0:24:09.75,0:24:13.25,Default,,0,0,0,,{\an1\pos(133,432)}\hLISTEN, TON', I THINK\NWE MAY HAVE A PROBLEM.
+Dialogue: 0,0:24:13.75,0:24:14.75,Default,,0,0,0,,{\an1\pos(341,432)}LOG OFF.
+Dialogue: 0,0:24:14.75,0:24:16.75,Default,,0,0,0,,{\an1\pos(302,432)}THAT COOKIES SHIT\NMAKES ME NERVOUS.
+Dialogue: 0,0:24:18.26,0:24:21.76,Default,,0,0,0,,{\an1\pos(133,432)}I THINK WE MAY HAVE\NA PROBLEM ABOUT OUR\NFRIEND, THE TWIN.
+Dialogue: 0,0:24:22.26,0:24:23.26,Default,,0,0,0,,{\an1\pos(341,432)}YEAH, SO ?
+Dialogue: 0,0:24:23.26,0:24:24.76,Default,,0,0,0,,{\an1\pos(146,432)}MY GOOMBAH,\NJOEY FLIES,
+Dialogue: 0,0:24:24.76,0:24:26.76,Default,,0,0,0,,{\an1\pos(146,432)}HE HANGS OUT AT THE\NNEST IN BLOOMFIELD.
+Dialogue: 0,0:24:26.77,0:24:28.28,Default,,0,0,0,,{\an1\pos(250,432)}GYP LA MONICA'S PLACE.
+Dialogue: 0,0:24:28.27,0:24:29.27,Default,,0,0,0,,{\an1\pos(133,432)}YEAH.
+Dialogue: 0,0:24:29.27,0:24:30.77,Default,,0,0,0,,{\an1\pos(146,432)}\h\h\h\hSO, OUR FRIEND IS\NA FIXTURE DOWN THERE
+Dialogue: 0,0:24:30.77,0:24:34.24,Default,,0,0,0,,{\an1\pos(133,432)}AND JOEY SAYS LATELY HE'S BEEN\N\hINTO THE BOOZE VERY HEAVY.
+Dialogue: 0,0:24:34.24,0:24:35.24,Default,,0,0,0,,{\an1\pos(185,432)}HE'S ALL FUCKED UP.
+Dialogue: 0,0:24:35.74,0:24:38.24,Default,,0,0,0,,{\an1\pos(133,432)}A COUPLE OF TIMES, I HAD TO\NPICK HIM UP OFF THE FLOOR.
+Dialogue: 0,0:24:38.24,0:24:39.74,Default,,0,0,0,,{\an1\pos(133,432)}SO, CHIP WENT TO HIM.
+Dialogue: 0,0:24:39.74,0:24:41.75,Default,,0,0,0,,{\an1\pos(146,432)}"PAT, WHAT THE FUCK ?
+Dialogue: 0,0:24:41.75,0:24:44.75,Default,,0,0,0,,{\an1\pos(133,432)}CAN I DO ANYTHING",\N\h\h\h\hETCETERA.
+Dialogue: 0,0:24:44.75,0:24:47.25,Default,,0,0,0,,{\an1\pos(146,432)}\h\h\hPATSY LAUNCHES INTO\NTHIS SINGLE MALT DIATRIBE
+Dialogue: 0,0:24:47.25,0:24:49.25,Default,,0,0,0,,{\an1\pos(133,432)}ABOUT HOW PEOPLE CAN\NSMILE IN YOUR FACE
+Dialogue: 0,0:24:49.25,0:24:50.75,Default,,0,0,0,,{\an1\pos(198,432)}\h\h\h\hAND STILL\NBE A VILLAIN
+Dialogue: 0,0:24:51.26,0:24:53.27,Default,,0,0,0,,{\an1\pos(185,432)}\hAND THAT HE KNOWS\NHOW HIS BROTHER DIED
+Dialogue: 0,0:24:53.26,0:24:56.26,Default,,0,0,0,,{\an1\pos(133,432)}AND WHO'S RESPONSIBLE\NAND ALL THAT THERE.
+Dialogue: 0,0:24:56.26,0:24:57.26,Default,,0,0,0,,{\an1\pos(354,432)}HE MENTION ME\NBY NAME ?
+Dialogue: 0,0:24:57.26,0:24:59.26,Default,,0,0,0,,{\an1\pos(146,432)}NO, ME NEITHER.
+Dialogue: 0,0:25:01.77,0:25:03.27,Default,,0,0,0,,{\an1\pos(302,432)}YOU HEARING THIS ?
+Dialogue: 0,0:25:03.27,0:25:05.27,Default,,0,0,0,,{\an1\pos(237,432)}HOW THE FUCK WOULD PATSY\NKNOW WE CLIPPED SPOONS ?
+Dialogue: 0,0:25:05.77,0:25:07.27,Default,,0,0,0,,{\an1\pos(302,432)}WHAT, THAT FUCKING\NTWIN TELEPATHY ?
+Dialogue: 0,0:25:07.77,0:25:10.27,Default,,0,0,0,,{\an1\pos(250,432)}SOMEBODY'S PUTTING\N\h\h\h\hIDEAS IN THIS\N\h\h\h\hKID'S HEAD.
+Dialogue: 0,0:25:10.28,0:25:13.29,Default,,0,0,0,,{\an1\pos(133,432)}( male on tv )\NSweet shot, really\Nbeautiful shot.
+Dialogue: 0,0:25:13.28,0:25:15.78,Default,,0,0,0,,{\an1\pos(133,432)}He just set himself\Nup perfectly on\Nthis hole...
+Dialogue: 0,0:25:15.78,0:25:18.78,Default,,0,0,0,,{\an1\pos(250,432)}DON'T LET US INTERFERE\NWITH YOUR GOLF GAME.
+Dialogue: 0,0:25:18.78,0:25:20.78,Default,,0,0,0,,{\an1\pos(146,432)}\h\h\h\hMAYBE A COP\NTRYING TO FLIP HIM.
+Dialogue: 0,0:25:21.79,0:25:24.79,Default,,0,0,0,,{\an1\pos(146,432)}GETTING HIM WORKED\N\h\h\hUP WITH THEORIES.
+Dialogue: 0,0:25:28.29,0:25:29.79,Default,,0,0,0,,{\an1\pos(250,432)}HE WAS TALKING WEIRD\N\h\h\hTHE OTHER DAY.
+Dialogue: 0,0:25:29.79,0:25:31.29,Default,,0,0,0,,{\an1\pos(146,432)}WHAT SHOULD WE DO ?
+Dialogue: 0,0:25:31.30,0:25:32.81,Default,,0,0,0,,{\an1\pos(302,432)}WE BROUGHT HIM OVER\NFROM JUNIOR'S CREW
+Dialogue: 0,0:25:32.80,0:25:34.30,Default,,0,0,0,,{\an1\pos(354,432)}TO KEEP AN\NEYE ON HIM.
+Dialogue: 0,0:25:35.30,0:25:36.80,Default,,0,0,0,,{\an1\pos(302,432)}\h\h\hSO, THAT'S WHAT\NWE'LL KEEP DOING.
+Dialogue: 0,0:25:38.30,0:25:40.30,Default,,0,0,0,,{\an1\pos(198,432)}I MEAN, MAKE\NNO MISTAKE.
+Dialogue: 0,0:25:40.31,0:25:42.32,Default,,0,0,0,,{\an1\pos(185,432)}PART OF THIS GUY\N\hLOVES YOU.
+Dialogue: 0,0:25:42.31,0:25:45.31,Default,,0,0,0,,{\an1\pos(146,432)}BUT IT'S GOTTA BE HARD\NCOMING INTO WORK  {\i1}EVERY{\r}  DAY
+Dialogue: 0,0:25:45.31,0:25:47.81,Default,,0,0,0,,{\an1\pos(133,432)}LOOKING RIGHT INTO THE EYES\N\hOF THE GUY YOU  {\i1}KNOW
+Dialogue: 0,0:25:47.81,0:25:49.81,Default,,0,0,0,,{\an1\pos(198,432)}\h\h\hORDERED YOUR\NBROTHER WHACKED.
+Dialogue: 0,0:25:49.81,0:25:51.82,Default,,0,0,0,,{\an1\pos(133,432)}AND EVEN HAVING\NTO SMILE.
+Dialogue: 0,0:25:53.32,0:25:55.32,Default,,0,0,0,,{\an1\pos(341,432)}\h\h\h\hWE ALWAYS\NHAVE THE OPTION.
+Dialogue: 0,0:26:01.83,0:26:04.83,Default,,0,0,0,,{\an1\pos(289,432)}MRS. BING IN MOTION.
+Dialogue: 0,0:26:04.83,0:26:07.33,Default,,0,0,0,,{\an1\pos(185,432)}\hS.E. TEAM, WE GOT THE\NHOUSEKEEPER TO WAIT OUT,
+Dialogue: 0,0:26:07.33,0:26:09.33,Default,,0,0,0,,{\an1\pos(250,432)}THEN THE HOUSE\NIS ALL YOURS.
+Dialogue: 0,0:26:16.84,0:26:19.34,Default,,0,0,0,,{\an1\pos(146,432)}( laughing )
+Dialogue: 0,0:26:22.35,0:26:24.35,Default,,0,0,0,,{\an1\pos(302,432)}HIT LOW TO\NHIGH, CARMELA
+Dialogue: 0,0:26:24.35,0:26:26.85,Default,,0,0,0,,{\an1\pos(341,432)}\h\h\h\hAND THINK\NABOUT YOUR GRIP.
+Dialogue: 0,0:26:28.35,0:26:29.35,Default,,0,0,0,,{\an1\pos(237,432)}FUCK !
+Dialogue: 0,0:26:29.35,0:26:30.85,Default,,0,0,0,,{\an1\pos(341,432)}NO, THAT'S GOOD.
+Dialogue: 0,0:26:30.86,0:26:32.87,Default,,0,0,0,,{\an1\pos(250,432)}NICE EXTENSION.
+Dialogue: 0,0:26:32.86,0:26:33.86,Default,,0,0,0,,{\an1\pos(341,432)}AH !
+Dialogue: 0,0:26:33.86,0:26:35.86,Default,,0,0,0,,{\an1\pos(250,432)}\h\h\hRACQUET BACK,\NCARMELA, C'MON !
+Dialogue: 0,0:26:40.87,0:26:41.88,Default,,0,0,0,,{\an1\pos(302,432)}FUCK.
+Dialogue: 0,0:26:41.87,0:26:43.37,Default,,0,0,0,,{\an1\pos(341,432)}NO, THAT'S GOOD.
+Dialogue: 0,0:26:43.37,0:26:45.37,Default,,0,0,0,,{\an1\pos(133,432)}SHOULDN'T THAT HOUSEKEEPER\NBE OUT OF THERE ?
+Dialogue: 0,0:26:45.37,0:26:46.87,Default,,0,0,0,,{\an1\pos(302,432)}EDGE CLOSER,\NTAKE A LOOK.
+Dialogue: 0,0:26:48.37,0:26:49.37,Default,,0,0,0,,{\an1\pos(302,432)}OW !
+Dialogue: 0,0:26:49.37,0:26:51.88,Default,,0,0,0,,{\an1\pos(250,432)}OKAY, GUYS,\NCOLLECT.
+Dialogue: 0,0:26:51.88,0:26:54.38,Default,,0,0,0,,{\an1\pos(250,432)}ACTUALLY, ADE, LET ME\NWORK WITH YOU HERE.
+Dialogue: 0,0:26:54.88,0:26:56.38,Default,,0,0,0,,{\an1\pos(250,432)}CARM, YOU COLLECT.
+Dialogue: 0,0:27:10.40,0:27:13.41,Default,,0,0,0,,{\an1\pos(133,432)}MAID'S CAR'S\N\hSTILL HERE.
+Dialogue: 0,0:27:17.40,0:27:20.40,Default,,0,0,0,,{\an1\pos(185,432)}OKAY, LET'S JUST FOCUS,\N\h\h\h\h\hBE SERIOUS...
+Dialogue: 0,0:27:21.41,0:27:23.42,Default,,0,0,0,,{\an1\pos(302,432)}AND FOLLOW THROUGH.
+Dialogue: 0,0:27:23.91,0:27:25.91,Default,,0,0,0,,{\an1\pos(354,432)}RIGHT, RIGHT.
+Dialogue: 0,0:27:25.91,0:27:27.91,Default,,0,0,0,,{\an1\pos(354,432)}ALMOST, ALMOST.
+Dialogue: 0,0:27:34.92,0:27:36.42,Default,,0,0,0,,{\an1\pos(198,432)}DID YOU HEAR\NSOMETHING ?
+Dialogue: 0,0:27:36.42,0:27:37.92,Default,,0,0,0,,{\an1\pos(354,432)}I DON'T KNOW.
+Dialogue: 0,0:27:42.93,0:27:44.93,Default,,0,0,0,,{\an1\pos(146,432)}\h\h\hWE THINK WE\NHEARD SOMETHING.
+Dialogue: 0,0:27:44.93,0:27:47.93,Default,,0,0,0,,{\an1\pos(146,432)}FROM INSIDE THE\NSAUSAGE FACTORY.
+Dialogue: 0,0:27:47.93,0:27:49.43,Default,,0,0,0,,{\an1\pos(302,432)}\h\h\h\h( male )\NHold your position.
+Dialogue: 0,0:27:51.44,0:27:52.95,Default,,0,0,0,,{\an1\pos(458,432)}OKAY.
+Dialogue: 0,0:27:53.44,0:27:54.44,Default,,0,0,0,,{\an1\pos(237,432)}STAND UP STRAIGHT,\N\h\h\h\h\hOKAY ?
+Dialogue: 0,0:27:54.44,0:27:55.44,Default,,0,0,0,,{\an1\pos(185,432)}OKAY.
+Dialogue: 0,0:27:55.44,0:27:56.94,Default,,0,0,0,,{\an1\pos(393,432)}HERE YOU GO.
+Dialogue: 0,0:27:56.94,0:27:58.94,Default,,0,0,0,,{\an1\pos(393,432)}\h( Birgit )\NLOW TO HIGH.
+Dialogue: 0,0:27:58.94,0:28:00.44,Default,,0,0,0,,{\an1\pos(302,432)}I CAN'T DO THIS\N\h\h\h\hWITH YOU.
+Dialogue: 0,0:28:00.95,0:28:01.96,Default,,0,0,0,,{\an1\pos(289,432)}( phone )
+Dialogue: 0,0:28:18.96,0:28:20.96,Default,,0,0,0,,{\an1\pos(133,432)}SHE'S LEAVING\N\hTHE COURT.
+Dialogue: 0,0:28:32.48,0:28:34.98,Default,,0,0,0,,{\an1\pos(250,432)}DER BINGLE'S LEAVING\N\h\h\hTHE BING, TOO.
+Dialogue: 0,0:28:49.99,0:28:50.99,Default,,0,0,0,,{\an1\pos(354,432)}\h\h\h\hTHIS DOES\NNOT LOOK GOOD.
+Dialogue: 0,0:28:51.00,0:28:54.51,Default,,0,0,0,,{\an1\pos(237,432)}MRS. BING BEARING NORTH\N\hON GRANDVIEW AVENUE.
+Dialogue: 0,0:28:58.50,0:29:00.00,Default,,0,0,0,,{\an1\pos(302,432)}\h\h\h\hSHE'S TURNED\NONTO FOXWOOD ROAD.
+Dialogue: 0,0:29:00.00,0:29:02.01,Default,,0,0,0,,{\an1\pos(302,432)}\h\h\hSHE'S HEADING\NTOWARD THE FACTORY.
+Dialogue: 0,0:29:07.51,0:29:10.01,Default,,0,0,0,,{\an1\pos(354,432)}\h\h\h\hABORT,\NREPEAT, ABORT.
+Dialogue: 0,0:29:10.01,0:29:12.52,Default,,0,0,0,,{\an1\pos(237,432)}S.E. TEAM GET THE HELL\N\hOUT OF THERE NOW !
+Dialogue: 0,0:29:12.52,0:29:14.52,Default,,0,0,0,,{\an1\pos(133,432)}\h( male )\N\hAbort, Andy,\Nit's not a go.
+Dialogue: 0,0:29:14.52,0:29:16.52,Default,,0,0,0,,{\an1\pos(133,432)}\hRepeat, we\Nare not a go.
+Dialogue: 0,0:29:29.03,0:29:31.53,Default,,0,0,0,,{\an1\pos(237,432)}♪ EVERY WORD\N\hYOU SAY ♪
+Dialogue: 0,0:29:31.54,0:29:33.55,Default,,0,0,0,,{\an1\pos(198,432)}♪ EVERY SINGLE DAY ♪
+Dialogue: 0,0:29:34.54,0:29:36.54,Default,,0,0,0,,{\an1\pos(146,432)}\h\h\hIT MUST BE A CRISIS\NWITH ONE OF THE CHILDREN.
+Dialogue: 0,0:29:36.54,0:29:40.54,Default,,0,0,0,,{\an1\pos(185,432)}CONTROL, I PLACE BABY BING\N\hIN THE SCHOOL BUILDING.
+Dialogue: 0,0:29:40.55,0:29:42.56,Default,,0,0,0,,{\an1\pos(302,432)}\h\h\h\h( male )\NUnit five report.
+Dialogue: 0,0:29:42.55,0:29:44.55,Default,,0,0,0,,{\an1\pos(146,432)}THAT'S A BIG ROGER\NFROM THIS END, TOO.
+Dialogue: 0,0:29:44.55,0:29:47.05,Default,,0,0,0,,{\an1\pos(146,432)}SHE WENT INTO HER ROOM\NABOUT TWO MINUTES AGO.
+Dialogue: 0,0:29:47.05,0:29:49.55,Default,,0,0,0,,{\an1\pos(146,432)}I HEARD HER TELL HER FRIEND\NSHE WAS GONNA GET SOME SLEEP.
+Dialogue: 0,0:29:50.05,0:29:51.55,Default,,0,0,0,,{\an1\pos(133,432)}\h\h\h\h\h( male )\N\h\h\h\h\hYou think\Nsomebody made us ?
+Dialogue: 0,0:29:51.56,0:29:53.57,Default,,0,0,0,,{\an1\pos(354,432)}I DON'T KNOW.
+Dialogue: 0,0:29:53.56,0:29:56.56,Default,,0,0,0,,{\an1\pos(198,432)}\h\h\hBUT WE'RE FINISHED\N\h\h\h\hFOR TODAY HERE,\NLADIES AND GENTLEMEN.
+Dialogue: 0,0:30:04.57,0:30:06.57,Default,,0,0,0,,{\an1\pos(302,432)}10 YEARS.
+Dialogue: 0,0:30:07.07,0:30:10.07,Default,,0,0,0,,{\an1\pos(289,432)}10 FUCKING YEARS HE\N\hSAID THIS FUCKING\NTHING WOULD LAST !
+Dialogue: 0,0:30:10.07,0:30:11.07,Default,,0,0,0,,{\an1\pos(354,432)}FUCK !
+Dialogue: 0,0:30:11.58,0:30:12.59,Default,,0,0,0,,{\an1\pos(146,432)}\h\h\h\h\h\h\h( Carmela )\NYOU SAID THAT, TONY.
+Dialogue: 0,0:30:12.58,0:30:13.58,Default,,0,0,0,,{\an1\pos(146,432)}\h\h\h\hARE YOU DOING\NANYTHING OVER THERE ?
+Dialogue: 0,0:30:14.08,0:30:16.08,Default,,0,0,0,,{\an1\pos(237,432)}I TOLD YOU NOT TO PUT\NTHIS SHIT DOWN HERE !
+Dialogue: 0,0:30:21.59,0:30:22.60,Default,,0,0,0,,{\an1\pos(302,432)}FUCK !
+Dialogue: 0,0:30:23.59,0:30:24.59,Default,,0,0,0,,{\an1\pos(406,432)}FUCK !
+Dialogue: 0,0:30:24.59,0:30:26.59,Default,,0,0,0,,{\an1\pos(302,432)}NEVER MIND THAT,\NSAVE THE PICTURES.
+Dialogue: 0,0:30:37.60,0:30:39.10,Default,,0,0,0,,{\an1\pos(406,432)}THE PROM.
+Dialogue: 0,0:30:39.10,0:30:41.60,Default,,0,0,0,,{\an1\pos(185,432)}\hLOOK AT THIS,\NFUCKING RUINED.
+Dialogue: 0,0:30:41.61,0:30:43.62,Default,,0,0,0,,{\an1\pos(354,432)}MR. RUGGERIO,\NTHANK GOD.
+Dialogue: 0,0:30:43.61,0:30:45.61,Default,,0,0,0,,{\an1\pos(146,432)}\h\h\h\hTHE FUCKING\NWATER HEATER BLEW.
+Dialogue: 0,0:30:46.11,0:30:47.61,Default,,0,0,0,,{\an1\pos(146,432)}JUST BLEW !
+Dialogue: 0,0:30:47.61,0:30:50.61,Default,,0,0,0,,{\an1\pos(237,432)}\h\h\h\hYOUR GUARANTEE'S\NGOTTA BE EXPIRED BY NOW.
+Dialogue: 0,0:30:52.62,0:30:53.62,Default,,0,0,0,,{\an1\pos(354,432)}MADONN'.
+Dialogue: 0,0:30:55.62,0:30:57.12,Default,,0,0,0,,{\an1\pos(289,432)}DO WE HAVE ANY IDEA\N\hWHAT WENT DOWN ?
+Dialogue: 0,0:30:57.12,0:30:58.62,Default,,0,0,0,,{\an1\pos(302,432)}NO.
+Dialogue: 0,0:30:58.62,0:31:00.62,Default,,0,0,0,,{\an1\pos(237,432)}IT'S A FAMILY\NEMERGENCY OF\N\hSOME SORT.
+Dialogue: 0,0:31:00.63,0:31:02.14,Default,,0,0,0,,{\an1\pos(250,432)}THE PLUMBER'S TRUCK\N\h\h\h\hWENT UP THERE.
+Dialogue: 0,0:31:02.13,0:31:05.13,Default,,0,0,0,,{\an1\pos(198,432)}\h\h\hLOOK, WE DON'T\N\h\h\h\hHAVE ANY IDEA\NWHAT HAPPENED, SO...
+Dialogue: 0,0:31:06.13,0:31:08.63,Default,,0,0,0,,{\an1\pos(198,432)}LET'S NOT SPECULATE.
+Dialogue: 0,0:31:08.63,0:31:11.63,Default,,0,0,0,,{\an1\pos(133,432)}ALL I KNOW IS THAT\NWE'RE SHIT OUT OF LUCK\NTILL NEXT TUESDAY.
+Dialogue: 0,0:31:11.64,0:31:15.65,Default,,0,0,0,,{\an1\pos(133,432)}\hSEND SOMEBODY UP\N\hTHERE TOMORROW,\NSTAKE THE HOUSE OUT.
+Dialogue: 0,0:31:15.64,0:31:18.64,Default,,0,0,0,,{\an1\pos(133,432)}\hMAYBE WE GOT A\NLONG-TERM PROBLEM.
+Dialogue: 0,0:31:18.64,0:31:21.64,Default,,0,0,0,,{\an1\pos(198,432)}WELL, WE'RE HEADING\NBACK TO QUANTICO.
+Dialogue: 0,0:31:21.65,0:31:25.16,Default,,0,0,0,,{\an1\pos(185,432)}WE GOT A JOB IN DENVER\N\hDAY AFTER TOMORROW.
+Dialogue: 0,0:31:25.15,0:31:26.15,Default,,0,0,0,,{\an1\pos(406,432)}A MOSQUE.
+Dialogue: 0,0:31:28.15,0:31:29.65,Default,,0,0,0,,{\an1\pos(250,432)}( knocking )
+Dialogue: 0,0:31:34.16,0:31:35.16,Default,,0,0,0,,{\an1\pos(289,432)}MORNING.
+Dialogue: 0,0:31:35.16,0:31:36.66,Default,,0,0,0,,{\an1\pos(146,432)}HI.
+Dialogue: 0,0:31:36.66,0:31:38.16,Default,,0,0,0,,{\an1\pos(302,432)}WE'D LIKE TO GET\NONTO YOUR PROPERTY
+Dialogue: 0,0:31:38.16,0:31:39.66,Default,,0,0,0,,{\an1\pos(133,432)}SO WE CAN TRIM SOME\NGROWTH IN THE BACK
+Dialogue: 0,0:31:39.66,0:31:41.66,Default,,0,0,0,,{\an1\pos(354,432)}THAT'S POSING\NA SAFETY HAZARD
+Dialogue: 0,0:31:41.67,0:31:43.68,Default,,0,0,0,,{\an1\pos(250,432)}WITH ALL THE POWERLINES\NRUNNING THROUGH THERE.
+Dialogue: 0,0:31:44.17,0:31:46.17,Default,,0,0,0,,{\an1\pos(302,432)}OKAY.
+Dialogue: 0,0:31:46.17,0:31:47.67,Default,,0,0,0,,{\an1\pos(302,432)}GO AROUND\NTHE SIDE.
+Dialogue: 0,0:31:47.67,0:31:49.17,Default,,0,0,0,,{\an1\pos(133,432)}WHILE WE'RE AT IT,
+Dialogue: 0,0:31:49.17,0:31:51.17,Default,,0,0,0,,{\an1\pos(250,432)}OUR RECORDS SHOW THAT\NOUR REPAIR DEPARTMENT
+Dialogue: 0,0:31:51.68,0:31:53.19,Default,,0,0,0,,{\an1\pos(302,432)}HAD SOME CREWS\NOUT HERE YESTERDAY.
+Dialogue: 0,0:31:53.18,0:31:56.18,Default,,0,0,0,,{\an1\pos(250,432)}WERE YOU AFFECTED\N\h\h\h\hBY ANY OF THE\N\h\h\h\hSHORTFALLS ?
+Dialogue: 0,0:31:56.68,0:31:58.68,Default,,0,0,0,,{\an1\pos(289,432)}YESTERDAY ?
+Dialogue: 0,0:31:59.68,0:32:00.68,Default,,0,0,0,,{\an1\pos(302,432)}NO.
+Dialogue: 0,0:32:01.69,0:32:03.70,Default,,0,0,0,,{\an1\pos(302,432)}OH.
+Dialogue: 0,0:32:03.69,0:32:06.19,Default,,0,0,0,,{\an1\pos(198,432)}THE PEOPLE NEXT DOOR\NHAVE HAD SOME TRUCKS\NGO UP THERE I THINK,
+Dialogue: 0,0:32:06.19,0:32:08.69,Default,,0,0,0,,{\an1\pos(250,432)}\h\h\h\hBUT, NO,\NWE'VE BEEN FINE.
+Dialogue: 0,0:32:09.69,0:32:11.19,Default,,0,0,0,,{\an1\pos(341,432)}HOW ABOUT THEM ?
+Dialogue: 0,0:32:11.20,0:32:13.71,Default,,0,0,0,,{\an1\pos(302,432)}DO YOU KNOW IF\NEVERYTHING'S OKAY\NOVER THERE ?
+Dialogue: 0,0:32:14.20,0:32:17.20,Default,,0,0,0,,{\an1\pos(250,432)}AS FAR AS I KNOW.
+Dialogue: 0,0:32:17.20,0:32:19.20,Default,,0,0,0,,{\an1\pos(185,432)}WELL, WE'LL GO\N\hTALK TO THEM.
+Dialogue: 0,0:32:19.20,0:32:21.70,Default,,0,0,0,,{\an1\pos(250,432)}PROBABLY YOU SHOULD.
+Dialogue: 0,0:32:22.71,0:32:24.21,Default,,0,0,0,,{\an1\pos(250,432)}THEY'RE IN THE--
+Dialogue: 0,0:32:24.21,0:32:25.21,Default,,0,0,0,,{\an1\pos(445,432)}PARDON ?
+Dialogue: 0,0:32:27.71,0:32:28.71,Default,,0,0,0,,{\an1\pos(289,432)}NOTHING.
+Dialogue: 0,0:32:29.21,0:32:31.71,Default,,0,0,0,,{\an1\pos(302,432)}THEY'RE DIFFERENT.
+Dialogue: 0,0:32:31.72,0:32:32.73,Default,,0,0,0,,{\an1\pos(250,432)}FOR THIS NEIGHBORHOOD,
+Dialogue: 0,0:32:32.72,0:32:34.72,Default,,0,0,0,,{\an1\pos(198,432)}\h\h\hTHEY'RE A LITTLE\NDIFFERENT, THAT'S ALL.
+Dialogue: 0,0:32:36.22,0:32:38.22,Default,,0,0,0,,{\an1\pos(354,432)}WE'LL GET BUSY\NIN THE BACK.
+Dialogue: 0,0:32:38.22,0:32:39.72,Default,,0,0,0,,{\an1\pos(354,432)}THANKS.
+Dialogue: 0,0:32:47.73,0:32:49.73,Default,,0,0,0,,{\an1\pos(198,432)}\h\h\h\hSTILL NOTHING\NOUT OF THE ORDINARY.
+Dialogue: 0,0:32:49.73,0:32:52.24,Default,,0,0,0,,{\an1\pos(302,432)}\h\h\hIS THE KID HOME\NSICK FROM SCHOOL ?
+Dialogue: 0,0:32:54.24,0:32:55.24,Default,,0,0,0,,{\an1\pos(185,432)}I DON'T SEE HIM.
+Dialogue: 0,0:32:55.24,0:32:57.74,Default,,0,0,0,,{\an1\pos(146,432)}BUT, I SEE AN ARM,\N\h\h\hA PIECE OF ROBE.
+Dialogue: 0,0:32:57.74,0:32:59.24,Default,,0,0,0,,{\an1\pos(185,432)}IT COULD BE TONY.
+Dialogue: 0,0:32:59.24,0:33:02.25,Default,,0,0,0,,{\an1\pos(185,432)}HE'S EATING\NSUGAR POPS.
+Dialogue: 0,0:33:02.25,0:33:04.25,Default,,0,0,0,,{\an1\pos(133,432)}WAIT, SOMEBODY JUST WALKED\N\hPAST THE KITCHEN WINDOW.
+Dialogue: 0,0:33:05.25,0:33:06.75,Default,,0,0,0,,{\an1\pos(146,432)}NO, THAT'S THE MAID.
+Dialogue: 0,0:33:08.75,0:33:09.75,Default,,0,0,0,,{\an1\pos(146,432)}THEY'RE GOOD.
+Dialogue: 0,0:33:09.75,0:33:11.75,Default,,0,0,0,,{\an1\pos(250,432)}FRESH THIS MORNING,\N\h\h\h\hFERRARA'S.
+Dialogue: 0,0:33:11.76,0:33:13.27,Default,,0,0,0,,{\an1\pos(146,432)}HOW ARE THINGS OVER\NON BLOOMFIELD AVENUE ?
+Dialogue: 0,0:33:13.26,0:33:16.76,Default,,0,0,0,,{\an1\pos(250,432)}\h\h\h\hTHE CUBAN WAS AT\NTHE CASINO LAST NIGHT.
+Dialogue: 0,0:33:16.76,0:33:19.76,Default,,0,0,0,,{\an1\pos(302,432)}\h\h\hAND BY THE WAY,\N\h\h\hBIG JOHN'S OKAY\NWITH A 60-40 SPLIT
+Dialogue: 0,0:33:19.76,0:33:21.76,Default,,0,0,0,,{\an1\pos(302,432)}BECAUSE WE OWN\NTHE BUILDING.
+Dialogue: 0,0:33:21.77,0:33:22.78,Default,,0,0,0,,{\an1\pos(354,432)}WHAT THE HELL ?
+Dialogue: 0,0:33:23.27,0:33:23.77,Default,,0,0,0,,{\an1\pos(393,432)}WHAT ?
+Dialogue: 0,0:33:29.77,0:33:32.28,Default,,0,0,0,,{\an1\pos(289,432)}\hWHAT THE FUCK,\NIS THAT PAT PARISI ?
+Dialogue: 0,0:33:35.28,0:33:36.78,Default,,0,0,0,,{\an1\pos(302,432)}OH, SHIT.
+Dialogue: 0,0:33:41.79,0:33:43.30,Default,,0,0,0,,{\an1\pos(302,432)}WHAT SHOULD WE DO ?
+Dialogue: 0,0:33:55.30,0:33:56.30,Default,,0,0,0,,{\an1\pos(198,432)}HE'S DRUNK !
+Dialogue: 0,0:33:56.80,0:33:58.30,Default,,0,0,0,,{\an1\pos(133,432)}ANYWAY, I TOLD JOHNNY,\N\hI SAYS, "LOOK--
+Dialogue: 0,0:33:58.30,0:33:59.80,Default,,0,0,0,,{\an1\pos(250,432)}LET'S TALK\NDOWNSTAIRS.
+Dialogue: 0,0:34:11.32,0:34:12.83,Default,,0,0,0,,{\an1\pos(146,432)}\h\h\h\h( Pat )\NMOTHERFUCKER...
+Dialogue: 0,0:34:15.32,0:34:17.32,Default,,0,0,0,,{\an1\pos(250,432)}I DON'T UNDERSTAND\N\h\h\h\hTHIS AT ALL.
+Dialogue: 0,0:34:19.32,0:34:20.82,Default,,0,0,0,,{\an1\pos(185,432)}COCKSUCKER.
+Dialogue: 0,0:34:38.84,0:34:42.35,Default,,0,0,0,,{\an1\pos(341,432)}WHAT'S UP, IKE ?
+Dialogue: 0,0:34:42.35,0:34:45.35,Default,,0,0,0,,{\an1\pos(185,432)}\hWHAT HAPPENED AT\N\hTHE SOPRANO HOUSE WAS\NTHE WATER HEATER BLEW.
+Dialogue: 0,0:34:47.35,0:34:48.85,Default,,0,0,0,,{\an1\pos(146,432)}OUR UNIT SAW RUGGERIO\NCOME BACK WITH A FLATBED
+Dialogue: 0,0:34:49.35,0:34:50.35,Default,,0,0,0,,{\an1\pos(146,432)}AND HAUL THE OLD ONE OUT.
+Dialogue: 0,0:34:50.35,0:34:51.85,Default,,0,0,0,,{\an1\pos(289,432)}RUGGERIO...
+Dialogue: 0,0:34:52.36,0:34:53.36,Default,,0,0,0,,{\an1\pos(406,432)}A PLUMBER ?
+Dialogue: 0,0:34:53.36,0:34:55.36,Default,,0,0,0,,{\an1\pos(354,432)}WHY ?
+Dialogue: 0,0:34:55.36,0:34:57.36,Default,,0,0,0,,{\an1\pos(302,432)}MY SISTER USED TO\NLIVE UP NEAR THERE.
+Dialogue: 0,0:34:57.36,0:34:59.36,Default,,0,0,0,,{\an1\pos(302,432)}SHE WAS FRIENDS\NWITH MRS. RUGGERIO.
+Dialogue: 0,0:34:59.36,0:35:01.86,Default,,0,0,0,,{\an1\pos(133,432)}YEAH, IT'S MR. RUGGERIO'S\N\h\h\h\hNEIGHBORHOOD.
+Dialogue: 0,0:35:03.37,0:35:05.37,Default,,0,0,0,,{\an1\pos(185,432)}\hANYWAY, WE HAVE TO\NGET THIS THING IN THERE
+Dialogue: 0,0:35:05.37,0:35:07.37,Default,,0,0,0,,{\an1\pos(133,432)}BEFORE OUR WARRANT\N\h\h\h\hGOES STALE.
+Dialogue: 0,0:35:07.37,0:35:09.87,Default,,0,0,0,,{\an1\pos(250,432)}BOY, WE'VE HAD EVERY\NONE OF TONY'S PHONES
+Dialogue: 0,0:35:09.87,0:35:12.38,Default,,0,0,0,,{\an1\pos(250,432)}BUGGED FOR FOUR YEARS.
+Dialogue: 0,0:35:12.38,0:35:14.88,Default,,0,0,0,,{\an1\pos(250,432)}\h\h\h\hBUT THE GUY SAYS\NLESS THAN HARPO MARX.
+Dialogue: 0,0:35:14.88,0:35:16.38,Default,,0,0,0,,{\an1\pos(198,432)}NEXT TUESDAY.
+Dialogue: 0,0:35:16.38,0:35:18.38,Default,,0,0,0,,{\an1\pos(198,432)}THE WIRE DROP'S\NA DEFINITE GO.
+Dialogue: 0,0:35:22.89,0:35:24.89,Default,,0,0,0,,{\an1\pos(302,432)}\h\h\hDER BINGLE HAS\NLEFT THE BUILDING.
+Dialogue: 0,0:35:25.89,0:35:27.39,Default,,0,0,0,,{\an1\pos(250,432)}( honking )
+Dialogue: 0,0:35:29.39,0:35:31.89,Default,,0,0,0,,{\an1\pos(185,432)}THEY FUCKING\N\hMADE ME.
+Dialogue: 0,0:35:31.90,0:35:34.41,Default,,0,0,0,,{\an1\pos(133,432)}\h( agent )\NWire drop is\Nstill a go.
+Dialogue: 0,0:35:34.40,0:35:36.90,Default,,0,0,0,,{\an1\pos(198,432)}CONFIRMING ACCESS\NTO SWITCHING BOX.
+Dialogue: 0,0:35:37.40,0:35:38.90,Default,,0,0,0,,{\an1\pos(250,432)}I'M GOING IN.
+Dialogue: 0,0:35:44.41,0:35:47.41,Default,,0,0,0,,{\an1\pos(289,432)}\h\h\h\h\hUNIT TWO,\NMRS. BING IN MOTION.
+Dialogue: 0,0:35:48.91,0:35:50.91,Default,,0,0,0,,{\an1\pos(302,432)}\h\h\hJUST THE MAID\NAND IT'S ALL YOURS.
+Dialogue: 0,0:35:51.42,0:35:52.93,Default,,0,0,0,,{\an1\pos(133,432)}\h( male )\NCopy that.
+Dialogue: 0,0:35:54.92,0:35:57.42,Default,,0,0,0,,{\an1\pos(133,432)}SIREN WIRE'S CUT.
+Dialogue: 0,0:35:59.42,0:36:02.43,Default,,0,0,0,,{\an1\pos(354,432)}\h\h\hTHE TEACHER\NKNOWS NOTHING.
+Dialogue: 0,0:36:02.43,0:36:05.43,Default,,0,0,0,,{\an1\pos(133,432)}WHY DO YOU QUARREL\N\hWITH HIM ALWAYS ?
+Dialogue: 0,0:36:05.43,0:36:07.93,Default,,0,0,0,,{\an1\pos(146,432)}ENGLISH IS HIS\NFIRST LANGUAGE.
+Dialogue: 0,0:36:07.93,0:36:09.93,Default,,0,0,0,,{\an1\pos(354,432)}\h\h\h\hC'MON,\NWASTE OUR TIME
+Dialogue: 0,0:36:09.93,0:36:11.93,Default,,0,0,0,,{\an1\pos(289,432)}WITH THOSE CHILDISH\N\hTRICK QUESTIONS.
+Dialogue: 0,0:36:11.94,0:36:13.95,Default,,0,0,0,,{\an1\pos(354,432)}\h\h\h\h"STOP,\NMEN AT WORK".
+Dialogue: 0,0:36:13.94,0:36:15.44,Default,,0,0,0,,{\an1\pos(289,432)}AND HOW DO WE KNOW\N\hIT DOESN'T MEAN
+Dialogue: 0,0:36:15.44,0:36:18.44,Default,,0,0,0,,{\an1\pos(302,432)}\h\h\h\h"STOP ALL MEN\NWHO ARE WORKING" ?
+Dialogue: 0,0:36:18.44,0:36:20.94,Default,,0,0,0,,{\an1\pos(237,432)}HE SHOULDN'T HAVE TAKEN\N\hA POINT OFF MY GRADE.
+Dialogue: 0,0:36:20.95,0:36:23.96,Default,,0,0,0,,{\an1\pos(250,432)}HE THINKS I'M A HACK\NCABBIE FROM PAKISTAN.
+Dialogue: 0,0:36:24.95,0:36:26.45,Default,,0,0,0,,{\an1\pos(354,432)}LILLI, LILLI !
+Dialogue: 0,0:36:26.45,0:36:27.95,Default,,0,0,0,,{\an1\pos(406,432)}WHERE ARE\NYOU GOING ?
+Dialogue: 0,0:36:27.95,0:36:29.95,Default,,0,0,0,,{\an1\pos(133,432)}\hI'M GOING\NBACK TO WORK !
+Dialogue: 0,0:36:41.97,0:36:43.48,Default,,0,0,0,,{\an1\pos(302,432)}EXCUSE ME, MA'AM.
+Dialogue: 0,0:36:43.47,0:36:44.47,Default,,0,0,0,,{\an1\pos(146,432)}SCARED ME.
+Dialogue: 0,0:36:44.47,0:36:45.97,Default,,0,0,0,,{\an1\pos(341,432)}\hI'M SORRY,\NCAN YOU TELL ME,
+Dialogue: 0,0:36:45.97,0:36:47.97,Default,,0,0,0,,{\an1\pos(302,432)}IS THE WEST ESSEX\NLANGUAGE SCHOOL\NAROUND HERE ?
+Dialogue: 0,0:36:47.97,0:36:48.97,Default,,0,0,0,,{\an1\pos(146,432)}THERE.
+Dialogue: 0,0:36:49.97,0:36:51.97,Default,,0,0,0,,{\an1\pos(302,432)}IS IT COED ?
+Dialogue: 0,0:36:51.98,0:36:53.49,Default,,0,0,0,,{\an1\pos(185,432)}WHAT ?
+Dialogue: 0,0:36:53.48,0:36:55.98,Default,,0,0,0,,{\an1\pos(289,432)}YOU WOULDN'T HAPPEN\NTO BE POLISH BY ANY\NCHANCE, WOULD YOU ?
+Dialogue: 0,0:36:55.98,0:36:56.98,Default,,0,0,0,,{\an1\pos(198,432)}YES.
+Dialogue: 0,0:36:58.48,0:37:01.48,Default,,0,0,0,,{\an1\pos(341,432)}MY GRANDMOTHER\N\hIS POLISH.
+Dialogue: 0,0:37:11.50,0:37:13.51,Default,,0,0,0,,{\an1\pos(302,432)}IT'S LOCKED TODAY.
+Dialogue: 0,0:37:19.00,0:37:20.50,Default,,0,0,0,,{\an1\pos(250,432)}\h\h\h\h\h\h\hYEAH, YEAH,\NMY GRANDMOTHER, SHE--
+Dialogue: 0,0:37:20.50,0:37:22.00,Default,,0,0,0,,{\an1\pos(198,432)}EXCUSE ME.
+Dialogue: 0,0:37:22.01,0:37:24.02,Default,,0,0,0,,{\an1\pos(198,432)}\h\h\h\hHOW CAN I\NHELP YOU, SIR ?
+Dialogue: 0,0:37:24.01,0:37:26.01,Default,,0,0,0,,{\an1\pos(250,432)}I WAS JUST WONDERING\N\h\h\hIF I COULD ASK YOU
+Dialogue: 0,0:37:26.01,0:37:28.01,Default,,0,0,0,,{\an1\pos(250,432)}A FEW QUESTIONS ABOUT\NTHE LANGUAGE SCHOOL.
+Dialogue: 0,0:37:28.51,0:37:30.01,Default,,0,0,0,,{\an1\pos(406,432)}HOW IS IT ?
+Dialogue: 0,0:37:31.02,0:37:33.53,Default,,0,0,0,,{\an1\pos(133,432)}SWEET MOTHER\N\hOF JESUS.
+Dialogue: 0,0:37:34.52,0:37:36.02,Default,,0,0,0,,{\an1\pos(146,432)}LOOK AT HER TODAY.
+Dialogue: 0,0:37:44.03,0:37:45.03,Default,,0,0,0,,{\an1\pos(250,432)}HI, ADE !
+Dialogue: 0,0:37:46.03,0:37:47.53,Default,,0,0,0,,{\an1\pos(250,432)}HI, GUYS !
+Dialogue: 0,0:37:47.53,0:37:49.03,Default,,0,0,0,,{\an1\pos(250,432)}\h\h\hBE BACK\NIN A SECOND.
+Dialogue: 0,0:37:49.03,0:37:51.53,Default,,0,0,0,,{\an1\pos(341,432)}\hLISTEN TO THIS\NNOW, "HI, ADE !"
+Dialogue: 0,0:37:53.54,0:37:54.54,Default,,0,0,0,,{\an1\pos(419,432)}{\i1}HI.
+Dialogue: 0,0:37:55.54,0:37:57.04,Default,,0,0,0,,{\an1\pos(198,432)}HEY, YOU.
+Dialogue: 0,0:37:59.04,0:38:00.54,Default,,0,0,0,,{\an1\pos(198,432)}I LOVE THOSE.
+Dialogue: 0,0:38:00.54,0:38:02.04,Default,,0,0,0,,{\an1\pos(289,432)}OH, YEAH ?
+Dialogue: 0,0:38:02.05,0:38:04.06,Default,,0,0,0,,{\an1\pos(146,432)}OH, MY GOD.
+Dialogue: 0,0:38:04.05,0:38:05.55,Default,,0,0,0,,{\an1\pos(133,432)}WHERE DID YOU\N\hGET THEM ?
+Dialogue: 0,0:38:06.05,0:38:07.55,Default,,0,0,0,,{\an1\pos(302,432)}NEAR MY HOUSE.
+Dialogue: 0,0:38:07.55,0:38:09.55,Default,,0,0,0,,{\an1\pos(198,432)}AY-AY-AY.
+Dialogue: 0,0:38:19.06,0:38:21.56,Default,,0,0,0,,{\an1\pos(146,432)}\h\h\h\hWAIT, WAIT, WAIT,\NTHIS TABLE'S BEEN MOVED.
+Dialogue: 0,0:38:21.57,0:38:23.08,Default,,0,0,0,,{\an1\pos(354,432)}CLEANUP FROM\N\h\h\hTHE FLOOD.
+Dialogue: 0,0:38:23.07,0:38:25.07,Default,,0,0,0,,{\an1\pos(250,432)}\h\h\h\hIT'S NOT UNDER\NTHE RIGHT DUCT ANYMORE.
+Dialogue: 0,0:38:25.07,0:38:26.57,Default,,0,0,0,,{\an1\pos(354,432)}\h\h\h\hSHOULD WE\NMOVE IT BACK ?
+Dialogue: 0,0:38:26.57,0:38:29.07,Default,,0,0,0,,{\an1\pos(133,432)}WHAT, TWO, THREE FEET,\N\hWHO'S GONNA NOTICE ?
+Dialogue: 0,0:38:29.07,0:38:32.58,Default,,0,0,0,,{\an1\pos(198,432)}\h\h\hYEAH, YOU KNOW, WAIT,\NWAIT, WAIT, SOMEBODY MIGHT.
+Dialogue: 0,0:38:32.58,0:38:35.58,Default,,0,0,0,,{\an1\pos(146,432)}YOU GOTTA FIGURE THOUGH,\NNORMAL COURSE OF EVENTS,
+Dialogue: 0,0:38:35.58,0:38:38.58,Default,,0,0,0,,{\an1\pos(146,432)}TONY WILL ASSUME CARMELA\NMOVED IT BACK OR THE MAID.
+Dialogue: 0,0:38:38.58,0:38:40.58,Default,,0,0,0,,{\an1\pos(354,432)}IF ANYBODY\NEVEN NOTICES.
+Dialogue: 0,0:38:40.58,0:38:42.59,Default,,0,0,0,,{\an1\pos(146,432)}\h\h\h\hMAKE AN\NEXECUTIVE DECISION.
+Dialogue: 0,0:38:42.59,0:38:44.09,Default,,0,0,0,,{\an1\pos(354,432)}GRAB AN END.
+Dialogue: 0,0:38:45.59,0:38:47.09,Default,,0,0,0,,{\an1\pos(406,432)}EASY, EASY.
+Dialogue: 0,0:38:47.09,0:38:48.59,Default,,0,0,0,,{\an1\pos(133,432)}\h\h\h\h\h( Hunter )\N\hWHEN HADLEY HEARD I\NWAS DEFERRING A YEAR,
+Dialogue: 0,0:38:49.09,0:38:51.59,Default,,0,0,0,,{\an1\pos(146,432)}\h\h\h\hSHE WAS LIKE,\N"WELL THAT'S SKETCHY."
+Dialogue: 0,0:38:53.60,0:38:56.10,Default,,0,0,0,,{\an1\pos(250,432)}STEVE SAID ERIC SCATINO\NHATES MONTCLAIR STATE.
+Dialogue: 0,0:38:56.10,0:38:57.60,Default,,0,0,0,,{\an1\pos(250,432)}AND HE'S BEEN DOING\N\h\h\h\hALL THIS ACID.
+Dialogue: 0,0:38:57.60,0:38:59.60,Default,,0,0,0,,{\an1\pos(146,432)}\h\h\hGOD, HE WAS\NSO STRAIGHTEDGE.
+Dialogue: 0,0:38:59.60,0:39:01.10,Default,,0,0,0,,{\an1\pos(146,432)}HI, CAITLIN.
+Dialogue: 0,0:39:01.61,0:39:03.12,Default,,0,0,0,,{\an1\pos(250,432)}HI.
+Dialogue: 0,0:39:03.11,0:39:06.61,Default,,0,0,0,,{\an1\pos(133,432)}\hTHIS IS HUNTER, MY\N\hFRIEND FROM HOME I\NWAS TELLING YOU ABOUT.
+Dialogue: 0,0:39:08.61,0:39:11.61,Default,,0,0,0,,{\an1\pos(146,432)}( loud rap music playing )
+Dialogue: 0,0:39:13.12,0:39:14.62,Default,,0,0,0,,{\an1\pos(497,432)}WOW.
+Dialogue: 0,0:39:16.12,0:39:18.62,Default,,0,0,0,,{\an1\pos(250,432)}\h\h\h\h\h\h\hDO YOU LIKE\NCITRON JELL-O SHOTS ?
+Dialogue: 0,0:39:18.62,0:39:21.62,Default,,0,0,0,,{\an1\pos(146,432)}ACTUALLY, I HAVEN'T HAD\NANY ALCOHOL IN A WEEK.
+Dialogue: 0,0:39:21.63,0:39:25.14,Default,,0,0,0,,{\an1\pos(133,432)}I KNOW, I WAS GONNA\N\hSAY WE SHOULD GO\NOVER TO PANCHITO'S,
+Dialogue: 0,0:39:25.13,0:39:27.13,Default,,0,0,0,,{\an1\pos(133,432)}BUT I REMEMBERED,\N\hBAD IDEA.
+Dialogue: 0,0:39:29.63,0:39:31.63,Default,,0,0,0,,{\an1\pos(185,432)}\hI WENT OVER TO\NTHE HEALTH CENTER.
+Dialogue: 0,0:39:31.64,0:39:33.65,Default,,0,0,0,,{\an1\pos(146,432)}\h\h\hTHAT PROBLEM\NSWALLOWING THING ?
+Dialogue: 0,0:39:33.64,0:39:36.14,Default,,0,0,0,,{\an1\pos(198,432)}\h\h\h\hTHEY GAVE ME THIS\NPRESCRIPTION FOR BUSPAR.
+Dialogue: 0,0:39:36.14,0:39:38.14,Default,,0,0,0,,{\an1\pos(198,432)}THAT'S FOR LIKE,\NANXIETY, RIGHT ?
+Dialogue: 0,0:39:39.14,0:39:41.64,Default,,0,0,0,,{\an1\pos(250,432)}I GUESS.
+Dialogue: 0,0:39:41.65,0:39:43.66,Default,,0,0,0,,{\an1\pos(198,432)}\h\h\h\hTHERE WAS LIKE,\NTHIS WEIGHTLIFTER GUY
+Dialogue: 0,0:39:43.65,0:39:45.15,Default,,0,0,0,,{\an1\pos(198,432)}ON THE SUBWAY TODAY.
+Dialogue: 0,0:39:45.15,0:39:47.15,Default,,0,0,0,,{\an1\pos(198,432)}AND HE WAS EATING THESE\NCACCIATORE CHICKEN PARTS
+Dialogue: 0,0:39:47.65,0:39:49.15,Default,,0,0,0,,{\an1\pos(250,432)}FROM THIS MASSIVE\NTUPPERWARE THING
+Dialogue: 0,0:39:49.15,0:39:51.65,Default,,0,0,0,,{\an1\pos(250,432)}AND SPITTING THE BONES\NBACK IN THE CONTAINER.
+Dialogue: 0,0:39:51.66,0:39:53.17,Default,,0,0,0,,{\an1\pos(198,432)}AND THE WHOLE CAR...
+Dialogue: 0,0:39:53.16,0:39:54.66,Default,,0,0,0,,{\an1\pos(250,432)}REEKED.
+Dialogue: 0,0:39:54.66,0:39:56.16,Default,,0,0,0,,{\an1\pos(237,432)}\hTHIS POOR BLIND MAN\NSITTING NEXT TO HIM.
+Dialogue: 0,0:39:56.66,0:39:59.66,Default,,0,0,0,,{\an1\pos(198,432)}I MEAN, YOU COULD TELL\NHE FELT COMPLETELY INVADED.
+Dialogue: 0,0:39:59.66,0:40:02.16,Default,,0,0,0,,{\an1\pos(198,432)}WE ALL DID.
+Dialogue: 0,0:40:02.17,0:40:05.68,Default,,0,0,0,,{\an1\pos(198,432)}EVERYBODY JUST STARED\N\h\h\hSTRAIGHT AHEAD.
+Dialogue: 0,0:40:05.67,0:40:07.17,Default,,0,0,0,,{\an1\pos(198,432)}NEW YORK.
+Dialogue: 0,0:40:10.17,0:40:12.17,Default,,0,0,0,,{\an1\pos(237,432)}( door opening )
+Dialogue: 0,0:40:46.21,0:40:47.71,Default,,0,0,0,,{\an1\pos(393,432)}HEY.
+Dialogue: 0,0:40:53.22,0:40:56.22,Default,,0,0,0,,{\an1\pos(198,432)}WHERE IS EVERYBODY ?
+Dialogue: 0,0:40:59.72,0:41:01.22,Default,,0,0,0,,{\an1\pos(146,432)}WHAT ARE YOU DOING ?
+Dialogue: 0,0:41:01.23,0:41:02.74,Default,,0,0,0,,{\an1\pos(354,432)}RECEIPTS FROM\NSUNDAY'S GAME.
+Dialogue: 0,0:41:16.74,0:41:18.24,Default,,0,0,0,,{\an1\pos(146,432)}YOU GOT A PROBLEM ?
+Dialogue: 0,0:41:18.24,0:41:19.74,Default,,0,0,0,,{\an1\pos(302,432)}WHAT, TON' ?
+Dialogue: 0,0:41:19.74,0:41:20.74,Default,,0,0,0,,{\an1\pos(237,432)}I SAID...
+Dialogue: 0,0:41:20.74,0:41:22.75,Default,,0,0,0,,{\an1\pos(198,432)}DO YOU GOT\NA PROBLEM ?
+Dialogue: 0,0:41:24.75,0:41:26.25,Default,,0,0,0,,{\an1\pos(302,432)}WITH WHAT, TON' ?
+Dialogue: 0,0:41:26.25,0:41:28.25,Default,,0,0,0,,{\an1\pos(146,432)}I DON'T KNOW, I HEARD MAYBE\NYOU GOT A FUCKIN' PROBLEM.
+Dialogue: 0,0:41:28.25,0:41:29.75,Default,,0,0,0,,{\an1\pos(198,432)}LIKE YOU DON'T\NLIKE BEING HERE.
+Dialogue: 0,0:41:30.75,0:41:32.76,Default,,0,0,0,,{\an1\pos(302,432)}I LIKE BEING HERE.
+Dialogue: 0,0:41:32.76,0:41:34.26,Default,,0,0,0,,{\an1\pos(237,432)}YOU SURE ?
+Dialogue: 0,0:41:34.26,0:41:35.26,Default,,0,0,0,,{\an1\pos(445,432)}YEAH.
+Dialogue: 0,0:41:35.26,0:41:36.71,Default,,0,0,0,,{\an1\pos(237,432)}YOU SURE ?
+Dialogue: 0,0:41:36.71,0:41:38.21,Default,,0,0,0,,{\an1\pos(406,432)}YEAH.
+Dialogue: 0,0:41:38.21,0:41:40.71,Default,,0,0,0,,{\an1\pos(146,432)}DON'T SAY YOU'RE SURE\NIF YOU'RE NOT SURE.
+Dialogue: 0,0:41:47.72,0:41:50.72,Default,,0,0,0,,{\an1\pos(133,432)}WHO WAS TELLING ME YOU BOUGHT\N\hYOUR DAUGHTER A NICE HOUSE
+Dialogue: 0,0:41:50.72,0:41:53.23,Default,,0,0,0,,{\an1\pos(198,432)}AFTER YOU CAME\NOVER WITH US ?
+Dialogue: 0,0:41:54.73,0:41:56.73,Default,,0,0,0,,{\an1\pos(198,432)}YEAH, THAT'S NICE.
+Dialogue: 0,0:41:56.73,0:41:58.23,Default,,0,0,0,,{\an1\pos(302,432)}WONDERFUL THING.
+Dialogue: 0,0:42:03.74,0:42:06.24,Default,,0,0,0,,{\an1\pos(146,432)}AND YOUR BROTHER,\NA BUON ANIMA.
+Dialogue: 0,0:42:08.24,0:42:10.24,Default,,0,0,0,,{\an1\pos(185,432)}\hYOU'VE RECOVERED\NFROM THAT SHIT THERE.
+Dialogue: 0,0:42:10.24,0:42:12.75,Default,,0,0,0,,{\an1\pos(133,432)}YOU PUT YOUR GRIEF\N\h\h\h\hBEHIND YOU.
+Dialogue: 0,0:42:21.26,0:42:22.77,Default,,0,0,0,,{\an1\pos(146,432)}YOU PUT YOUR GRIEF\N\h\h\h\hBEHIND YOU.
+Dialogue: 0,0:42:26.26,0:42:28.26,Default,,0,0,0,,{\an1\pos(250,432)}LET ME HEAR\NYOU SAY IT.
+Dialogue: 0,0:42:32.27,0:42:35.28,Default,,0,0,0,,{\an1\pos(250,432)}I PUT THE GRIEF\N\h\h\hBEHIND ME.
+Dialogue: 0,0:42:36.77,0:42:39.77,Default,,0,0,0,,{\an1\pos(198,432)}I'M GONNA GO GET\NA COFFEE AND A BUN.
+Dialogue: 0,0:42:45.78,0:42:47.28,Default,,0,0,0,,{\an1\pos(198,432)}YOU GOT A YOUNGER\NSON TOO, RIGHT ?
+Dialogue: 0,0:42:47.28,0:42:49.28,Default,,0,0,0,,{\an1\pos(198,432)}YOU OUGHTA BRING HIM\N\h\h\hUP TO THE HOUSE.
+Dialogue: 0,0:42:49.28,0:42:50.78,Default,,0,0,0,,{\an1\pos(302,432)}HE CAN HANG\NOUT WITH A.J.
+Dialogue: 0,0:42:50.78,0:42:51.78,Default,,0,0,0,,{\an1\pos(250,432)}\h\h\h\hWE CAN GET\NSOMETHING TO EAT.
+Dialogue: 0,0:42:51.79,0:42:53.80,Default,,0,0,0,,{\an1\pos(289,432)}\hTHEY CAN GO\NIN THE POOL.
+Dialogue: 0,0:43:04.80,0:43:07.30,Default,,0,0,0,,{\an1\pos(250,432)}WE'LL HAVE TO LEAVE\NTHIS JUNK ON THE TABLE.
+Dialogue: 0,0:43:07.30,0:43:10.30,Default,,0,0,0,,{\an1\pos(341,432)}\hDON'T KNOW\NWHERE TO PUT IT.
+Dialogue: 0,0:43:12.81,0:43:14.31,Default,,0,0,0,,{\an1\pos(341,432)}\h\h\h\hCONTROL,\NYOU HEARING ME ?
+Dialogue: 0,0:43:14.31,0:43:16.81,Default,,0,0,0,,{\an1\pos(133,432)}\h\h\h\h\h( male )\N\hLoud and clear,\Nleave the factory.
+Dialogue: 0,0:43:16.81,0:43:17.81,Default,,0,0,0,,{\an1\pos(406,432)}ROGER THAT.
+Dialogue: 0,0:43:23.82,0:43:25.82,Default,,0,0,0,,{\an1\pos(354,432)}WIRE'S IN,\NBOBBY.
+Dialogue: 0,0:43:25.82,0:43:27.32,Default,,0,0,0,,{\an1\pos(354,432)}I'M GOOD TO GO.
+Dialogue: 0,0:43:29.32,0:43:30.82,Default,,0,0,0,,{\an1\pos(133,432)}\h\h\h\h( male )\N\h\h\h\hControl,\Nwe're in motion.
+Dialogue: 0,0:43:30.82,0:43:32.32,Default,,0,0,0,,{\an1\pos(133,432)}We have left the\Nsausage factory.
+Dialogue: 0,0:43:32.33,0:43:33.34,Default,,0,0,0,,{\an1\pos(302,432)}TOUCHDOWN.
+Dialogue: 0,0:43:33.83,0:43:35.83,Default,,0,0,0,,{\an1\pos(341,432)}\hDIG, SOPRANO,\NC'MON, DIG IT !
+Dialogue: 0,0:43:35.83,0:43:37.33,Default,,0,0,0,,{\an1\pos(302,432)}YOU WANTED TO JOIN\NTHE FOOTBALL TEAM.
+Dialogue: 0,0:43:37.33,0:43:39.83,Default,,0,0,0,,{\an1\pos(250,432)}YOU THINK IT'S ALL FOR\NSHOW AND NOT FOR GO ?
+Dialogue: 0,0:43:39.83,0:43:41.83,Default,,0,0,0,,{\an1\pos(354,432)}\h\h\h\hDIG IN,\NYOU CHUBETTE !
+Dialogue: 0,0:43:41.84,0:43:43.35,Default,,0,0,0,,{\an1\pos(133,432)}\h( male )\N\hYou're out of\Nthere, George.
+Dialogue: 0,0:43:43.34,0:43:45.34,Default,,0,0,0,,{\an1\pos(393,432)}Unit three,\N\hwe're in.
+Dialogue: 0,0:44:01.36,0:44:03.37,Default,,0,0,0,,{\an1\pos(250,432)}( footsteps )
+Dialogue: 0,0:44:06.86,0:44:08.86,Default,,0,0,0,,{\an1\pos(393,432)}\h( Tony )\N\hSo, I got a\Njob for you.
+Dialogue: 0,0:44:08.86,0:44:10.36,Default,,0,0,0,,{\an1\pos(133,432)}( Stasiu )\NRight.
+Dialogue: 0,0:44:10.86,0:44:12.87,Default,,0,0,0,,{\an1\pos(354,432)}\h\h\h( Tony )\NIt might get\Na little messy.
+Dialogue: 0,0:44:12.87,0:44:14.37,Default,,0,0,0,,{\an1\pos(133,432)}\h( Stasiu )\NI understand.
+Dialogue: 0,0:44:14.37,0:44:16.37,Default,,0,0,0,,{\an1\pos(406,432)}( Tony )\NWet work.
+Dialogue: 0,0:44:16.37,0:44:18.87,Default,,0,0,0,,{\an1\pos(133,432)}( Stasiu )\NAlright.
+Dialogue: 0,0:44:18.87,0:44:20.87,Default,,0,0,0,,{\an1\pos(302,432)}\h\h\h\h( Tony )\N\h\h\h\hI'll make it\Nworth your while,
+Dialogue: 0,0:44:20.87,0:44:21.87,Default,,0,0,0,,{\an1\pos(406,432)}don't worry\Nabout that.
+Dialogue: 0,0:44:22.38,0:44:24.39,Default,,0,0,0,,{\an1\pos(133,432)}\h( Stasiu )\NI'm not worried.
+Dialogue: 0,0:44:27.38,0:44:28.88,Default,,0,0,0,,{\an1\pos(354,432)}\h\h\h( Tony )\NLook over here.
+Dialogue: 0,0:44:28.88,0:44:31.38,Default,,0,0,0,,{\an1\pos(250,432)}( agent )\NMINIMIZATION,\N40 SECONDS.
+Dialogue: 0,0:44:33.89,0:44:34.89,Default,,0,0,0,,{\an1\pos(302,432)}THE OLD ONE BLEW.
+Dialogue: 0,0:44:34.89,0:44:37.39,Default,,0,0,0,,{\an1\pos(302,432)}FLOODED THE WHOLE\NGODDAMN PLACE.
+Dialogue: 0,0:44:37.39,0:44:40.89,Default,,0,0,0,,{\an1\pos(146,432)}I CAN SMELL THE\NMILDEW, YOU KNOW ?
+Dialogue: 0,0:44:40.89,0:44:42.39,Default,,0,0,0,,{\an1\pos(302,432)}SO, LILLIANA SAYS\NYOU'RE AN ENGINEER.
+Dialogue: 0,0:44:42.40,0:44:44.41,Default,,0,0,0,,{\an1\pos(250,432)}\h\h\hI FIGURED MAYBE YOU\NCOULD RIG SOME SYSTEM.
+Dialogue: 0,0:44:44.90,0:44:47.90,Default,,0,0,0,,{\an1\pos(302,432)}\h\h\h\hIF IT HAPPENS\N\h\h\hAGAIN, SOME PVC\NSHIT OR SOMETHING.
+Dialogue: 0,0:44:47.90,0:44:49.90,Default,,0,0,0,,{\an1\pos(146,432)}SO, IF IT HAPPENS AGAIN,\NYOU GET THE OVERFLOW
+Dialogue: 0,0:44:49.90,0:44:50.90,Default,,0,0,0,,{\an1\pos(146,432)}\h\h\h\hAND YOU PUT IT OVER\NINTO THE CORNER OVER THERE
+Dialogue: 0,0:44:51.41,0:44:52.92,Default,,0,0,0,,{\an1\pos(198,432)}TO A SUMP PUMP.
+Dialogue: 0,0:44:52.91,0:44:54.91,Default,,0,0,0,,{\an1\pos(354,432)}\h\h\hYou chip out\Nthe concrete.
+Dialogue: 0,0:44:54.91,0:44:56.41,Default,,0,0,0,,{\an1\pos(354,432)}4-0.
+Dialogue: 0,0:44:56.41,0:44:57.91,Default,,0,0,0,,{\an1\pos(302,432)}YEAH, THEY'RE NOT\NDISCUSSING  {\i1}OC.
+Dialogue: 0,0:45:03.42,0:45:06.42,Default,,0,0,0,,{\an1\pos(146,432)}TWO MINUTES, WE'RE ALLOWED\N\h\h\h\hTO CHECK BACK IN.
+Dialogue: 0,0:45:11.43,0:45:12.94,Default,,0,0,0,,{\an1\pos(250,432)}\h\h\hWHAT DO\NYOU THINK ?
+Dialogue: 0,0:45:13.93,0:45:15.93,Default,,0,0,0,,{\an1\pos(354,432)}WHATEVER.
+Dialogue: 0,0:45:15.93,0:45:17.93,Default,,0,0,0,,{\an1\pos(198,432)}WELL, HOW MUCH ?
+Dialogue: 0,0:45:19.43,0:45:21.93,Default,,0,0,0,,{\an1\pos(146,432)}TIME, MATERIALS.
+Dialogue: 0,0:45:21.94,0:45:24.45,Default,,0,0,0,,{\an1\pos(133,432)}I DON'T KNOW HOW TO\N\hCONCOCT ESTIMATE.
+Dialogue: 0,0:45:24.94,0:45:26.44,Default,,0,0,0,,{\an1\pos(406,432)}HMM, WELL.
+Dialogue: 0,0:45:27.44,0:45:28.94,Default,,0,0,0,,{\an1\pos(393,432)}FAIR ENOUGH.
+Dialogue: 0,0:45:29.44,0:45:30.94,Default,,0,0,0,,{\an1\pos(146,432)}LET ME GET MEASURE.
+Dialogue: 0,0:45:31.45,0:45:32.45,Default,,0,0,0,,{\an1\pos(146,432)}GET STARTED.
+Dialogue: 0,0:45:32.95,0:45:34.45,Default,,0,0,0,,{\an1\pos(445,432)}ALRIGHT.
+Dialogue: 0,0:45:35.45,0:45:37.45,Default,,0,0,0,,{\an1\pos(406,432)}HI, STASIU.
+Dialogue: 0,0:45:40.95,0:45:42.96,Default,,0,0,0,,{\an1\pos(198,432)}YOU GONNA\NUSE THIS ?
+Dialogue: 0,0:45:43.46,0:45:44.96,Default,,0,0,0,,{\an1\pos(354,432)}YOU WANT IT,\N\h\h\hTAKE IT.
+Dialogue: 0,0:45:44.96,0:45:46.46,Default,,0,0,0,,{\an1\pos(146,432)}NO, YOU GO AHEAD.
+Dialogue: 0,0:45:46.46,0:45:47.96,Default,,0,0,0,,{\an1\pos(250,432)}GO AHEAD, I'LL\N\h\h\hUSE THE BIKE.
+Dialogue: 0,0:45:47.96,0:45:49.96,Default,,0,0,0,,{\an1\pos(146,432)}I HAVE TO SORT THROUGH\NMEADOW'S LAUNDRY ANYWAY.
+Dialogue: 0,0:45:49.96,0:45:51.46,Default,,0,0,0,,{\an1\pos(198,432)}SHE'S GONNA BE HERE\NAT NOON TO GET IT.
+Dialogue: 0,0:45:51.97,0:45:53.98,Default,,0,0,0,,{\an1\pos(198,432)}LILLIANA'S MAKING\N\h\h\hHER A LEG OF\NLAMB TO TAKE BACK.
+Dialogue: 0,0:45:54.47,0:45:55.97,Default,,0,0,0,,{\an1\pos(354,432)}BACK IN LODZ,
+Dialogue: 0,0:45:55.97,0:45:59.97,Default,,0,0,0,,{\an1\pos(250,432)}\h\h\h\hI HAD GRANT FROM\N\h\h\hTHE STATE TO DO AN\NAUTONOMOUS RESEARCH.
+Dialogue: 0,0:45:59.97,0:46:01.47,Default,,0,0,0,,{\an1\pos(198,432)}YOU GOT YOUR WORKOUT\N\h\h\h\hCLOTHES ON,
+Dialogue: 0,0:46:01.48,0:46:02.48,Default,,0,0,0,,{\an1\pos(250,432)}WHY DON'T YOU USE IT ?
+Dialogue: 0,0:46:02.48,0:46:03.49,Default,,0,0,0,,{\an1\pos(250,432)}I'LL TAKE THE BIKE.
+Dialogue: 0,0:46:03.48,0:46:05.48,Default,,0,0,0,,{\an1\pos(146,432)}JESUS, ALREADY,\NNO, YOU GO AHEAD.
+Dialogue: 0,0:46:10.98,0:46:12.99,Default,,0,0,0,,{\an1\pos(198,432)}STAS SAID HE COULD SMELL\N\h\h\hTHE MILDEW DOWN HERE,
+Dialogue: 0,0:46:12.99,0:46:14.49,Default,,0,0,0,,{\an1\pos(354,432)}RIGHT, STAS ?
+Dialogue: 0,0:46:17.49,0:46:20.49,Default,,0,0,0,,{\an1\pos(133,432)}WE GOTTA OPEN THESE\NWINDOWS UP, LET THE\NPLACE DRY OUT.
+Dialogue: 0,0:46:29.50,0:46:32.00,Default,,0,0,0,,{\an1\pos(133,432)}GOT SOME RUSSIAN GIRL\N\hCOMING IN TO TAKE\N\hCARE OF MY MOTHER.
+Dialogue: 0,0:46:32.51,0:46:33.52,Default,,0,0,0,,{\an1\pos(146,432)}\h\h\h\h\h\h\hOH, YEAH,\NWHERE'D YOU FIND HER ?
+Dialogue: 0,0:46:33.51,0:46:35.01,Default,,0,0,0,,{\an1\pos(354,432)}AGENCY.
+Dialogue: 0,0:46:52.03,0:46:54.04,Default,,0,0,0,,{\an1\pos(250,432)}\h\h\h\h\h\h\h( Tony )\NIt was good coffee\N\h\h\h\hthis morning.
+Dialogue: 0,0:46:55.03,0:46:56.53,Default,,0,0,0,,{\an1\pos(133,432)}\h( Carmela )\NVienna roast.
+Dialogue: 0,0:46:56.53,0:46:58.53,Default,,0,0,0,,{\an1\pos(133,432)}It's not as acidic\Nas the Italian.
+Dialogue: 0,0:47:00.03,0:47:01.53,Default,,0,0,0,,{\an1\pos(250,432)}\h\h\h\h\h\h\h\h( Tony )\NCleaned me right out.
+Dialogue: 0,0:47:01.54,0:47:05.05,Default,,0,0,0,,{\an1\pos(133,432)}\h\h\h\h\h( Carmela )\NWhat you need is more roughage\Noverall in your diet
+Dialogue: 0,0:47:05.04,0:47:06.54,Default,,0,0,0,,{\an1\pos(133,432)}is what you need.
+Dialogue: 0,0:47:08.04,0:47:11.04,Default,,0,0,0,,{\an1\pos(146,432)}\h\h\h\h\h\h\h\h\h\h\h\h( Tony )\N\h\h\h\hI'VE HAD SOMETHING STUCK\NIN MY TEETH FOR TWO DAYS NOW.
+Dialogue: 0,0:47:11.04,0:47:12.54,Default,,0,0,0,,{\an1\pos(458,432)}JESUS.
+Dialogue: 0,0:47:12.55,0:47:14.56,Default,,0,0,0,,{\an1\pos(133,432)}\h( Carmela )\N\hYOU GOTTA USE\NTHE OTHER FLOSS.
+Dialogue: 0,0:47:14.55,0:47:19.05,Default,,0,0,0,,{\an1\pos(237,432)}♪ HIGH FIDELITY ♪
+Dialogue: 0,0:47:21.56,0:47:24.83,Default,,0,0,0,,{\an1\pos(198,432)}♪ CAN YOU HEAR ME,\NCAN YOU HEAR ME ♪
+Dialogue: 0,0:47:25.36,0:47:28.16,Default,,0,0,0,,{\an1\pos(198,432)}♪ CAN YOU HEAR ME ♪
+Dialogue: 0,0:47:28.16,0:47:32.76,Default,,0,0,0,,{\an1\pos(237,432)}♪ HIGH FIDELITY ♪
+Dialogue: 0,0:47:35.00,0:47:38.70,Default,,0,0,0,,{\an1\pos(198,432)}♪ CAN YOU HEAR ME,\NCAN YOU HEAR ME ♪
+Dialogue: 0,0:47:38.71,0:47:41.47,Default,,0,0,0,,{\an1\pos(198,432)}♪ CAN YOU HEAR ME ♪
+Dialogue: 0,0:47:41.46,0:47:44.21,Default,,0,0,0,,{\an1\pos(146,432)}♪ THERE'S A NEW KIND\N\h\h\h\hOF DEDICATION ♪
+Dialogue: 0,0:47:44.21,0:47:47.91,Default,,0,0,0,,{\an1\pos(146,432)}♪ MAYBE YOU'LL FIND IT\N\h\h\h\hDOWN THE TUNNEL ♪
+Dialogue: 0,0:47:47.91,0:47:51.02,Default,,0,0,0,,{\an1\pos(198,432)}\h\h\h\h♪ MAYBE I GOT\NABOVE MY STATION ♪
+Dialogue: 0,0:47:51.02,0:47:54.72,Default,,0,0,0,,{\an1\pos(198,432)}♪ MAYBE YOU'RE ONLY\NCHANGING CHANNEL ♪
+Dialogue: 0,0:47:55.12,0:47:58.32,Default,,0,0,0,,{\an1\pos(185,432)}\h\h\h\h\h♪ EVEN THOUGH\NYOU'RE NOWHERE NEAR ME ♪
+Dialogue: 0,0:47:58.33,0:48:02.74,Default,,0,0,0,,{\an1\pos(146,432)}♪ AND I KNOW YOU KISS HIM\N\h\h\hSO SINCERELY NOW ♪
+Dialogue: 0,0:48:04.33,0:48:07.53,Default,,0,0,0,,{\an1\pos(198,432)}\h\h\h♪ EVEN THOUGH THE\NSIGNAL'S INDISTINCT ♪
+Dialogue: 0,0:48:07.53,0:48:10.74,Default,,0,0,0,,{\an1\pos(198,432)}♪ AND YOU WORRY WHAT\NSILLY PEOPLE THINK ♪
+Dialogue: 0,0:48:11.14,0:48:14.74,Default,,0,0,0,,{\an1\pos(198,432)}♪ WHO JUST CAN'T WAIT\NTO FEEL SO FROZEN OUT ♪
+Dialogue: 0,0:48:14.74,0:48:17.94,Default,,0,0,0,,{\an1\pos(198,432)}\h\h\h♪ I BET HE THINKS\NTHAT HE WAS CHOSEN ♪
+Dialogue: 0,0:48:17.94,0:48:19.54,Default,,0,0,0,,{\an1\pos(198,432)}♪ OUT OF MILLIONS ♪
+Dialogue: 0,0:48:19.55,0:48:22.76,Default,,0,0,0,,{\an1\pos(185,432)}\h\h\h\h\h♪ I SUPPOSE\NHE'LL NEVER KNOW ABOUT ♪
+Dialogue: 0,0:48:23.55,0:48:27.55,Default,,0,0,0,,{\an1\pos(237,432)}♪ HIGH FIDELITY ♪
+Dialogue: 0,0:48:29.56,0:48:33.17,Default,,0,0,0,,{\an1\pos(198,432)}♪ CAN YOU HEAR ME,\NCAN YOU HEAR ME ♪
+Dialogue: 0,0:48:33.16,0:48:36.36,Default,,0,0,0,,{\an1\pos(198,432)}♪ CAN YOU HEAR ME ♪
+Dialogue: 0,0:48:36.36,0:48:40.77,Default,,0,0,0,,{\an1\pos(237,432)}♪ HIGH FIDELITY ♪
+Dialogue: 0,0:48:43.17,0:48:46.37,Default,,0,0,0,,{\an1\pos(198,432)}♪ CAN YOU HEAR ME,\NCAN YOU HEAR ME ♪
+Dialogue: 0,0:48:46.37,0:48:49.68,Default,,0,0,0,,{\an1\pos(198,432)}♪ CAN YOU HEAR ME ♪
+Dialogue: 0,0:48:49.68,0:48:51.23,Default,,0,0,0,,{\an1\pos(198,432)}♪ CAN YOU HEAR ME ♪
+Dialogue: 0,0:48:51.23,0:48:53.40,Default,,0,0,0,,{\an1\pos(146,432)}Captions Copyright 2001\N\h\h\h\hHOME BOX OFFICE
+Dialogue: 0,0:48:53.40,0:48:55.95,Default,,0,0,0,,{\an1\pos(133,432)}Division of TIME WARNER\N\h\h\h\h\hCOMPANY, L.P.
