@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Alex Morgan — Full-Stack Developer & UI/UX Designer crafting premium digital experiences." />
+
+  <!-- Security headers via meta (server should set real HTTP headers in production) -->
+  <!-- TODO(security): In production, set Content-Security-Policy, X-Frame-Options: DENY,
+       X-Content-Type-Options: nosniff, and Referrer-Policy via actual HTTP headers on the server. -->
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+
+  <title>Alex Morgan — Developer & Designer</title>
+
+  <!-- Google Fonts: loaded from first-party CDN with preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;600;700;800&display=swap"
+    rel="stylesheet"
+    crossorigin="anonymous"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <header class="navbar" id="navbar" role="banner">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo" aria-label="Alex Morgan Home">
+        <span class="logo-dot"></span>
+        <span>Alex<span class="logo-accent">Morgan</span></span>
+      </a>
+
+      <nav class="nav-links" id="nav-links" role="navigation" aria-label="Main Navigation">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#work" class="nav-link">Work</a>
+        <a href="#testimonials" class="nav-link">Reviews</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <a href="#contact" class="btn btn-primary nav-cta" id="nav-cta-btn">Hire Me</a>
+
+      <button class="hamburger" id="hamburger-btn" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobile-menu" role="dialog" aria-label="Mobile Navigation" aria-hidden="true">
+      <a href="#about" class="mobile-link">About</a>
+      <a href="#services" class="mobile-link">Services</a>
+      <a href="#work" class="mobile-link">Work</a>
+      <a href="#testimonials" class="mobile-link">Reviews</a>
+      <a href="#contact" class="mobile-link">Contact</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="hero" aria-labelledby="hero-heading">
+      <div class="hero-bg" role="presentation"></div>
+      <div class="hero-overlay" role="presentation"></div>
+
+      <div class="hero-content container">
+        <div class="hero-badge" id="hero-badge">
+          <span class="badge-dot"></span>
+          <span>Available for freelance</span>
+        </div>
+        <h1 class="hero-title" id="hero-heading">
+          Crafting <span class="gradient-text">Digital</span><br />
+          Experiences That <span class="gradient-text">Matter</span>
+        </h1>
+        <p class="hero-subtitle">
+          I'm Alex Morgan — a Full-Stack Developer &amp; UI/UX Designer who turns bold ideas
+          into elegant, high-performance products loved by users.
+        </p>
+        <div class="hero-actions">
+          <a href="#work" class="btn btn-primary btn-lg" id="hero-work-btn">View My Work</a>
+          <a href="#contact" class="btn btn-outline btn-lg" id="hero-contact-btn">Get in Touch</a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-number" id="stat-projects">0</span>
+            <span class="stat-label">Projects Shipped</span>
+          </div>
+          <div class="stat-divider" role="separator"></div>
+          <div class="stat-item">
+            <span class="stat-number" id="stat-clients">0</span>
+            <span class="stat-label">Happy Clients</span>
+          </div>
+          <div class="stat-divider" role="separator"></div>
+          <div class="stat-item">
+            <span class="stat-number" id="stat-years">0</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-indicator" aria-hidden="true">
+        <div class="scroll-dot"></div>
+      </div>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section class="about section" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-visual">
+            <div class="about-card glass-card">
+              <div class="avatar-ring">
+                <div class="avatar" role="img" aria-label="Alex Morgan portrait"></div>
+              </div>
+              <div class="about-card-info">
+                <p class="about-card-name">Alex Morgan</p>
+                <p class="about-card-role">Full-Stack Developer</p>
+              </div>
+              <div class="skill-chips" aria-label="Top skills">
+                <span class="chip">React</span>
+                <span class="chip">Node.js</span>
+                <span class="chip">Python</span>
+                <span class="chip">Figma</span>
+                <span class="chip">AWS</span>
+                <span class="chip">TypeScript</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-text">
+            <div class="section-tag">About Me</div>
+            <h2 class="section-title" id="about-heading">
+              I build things for the <span class="gradient-text">web</span>
+            </h2>
+            <p class="section-desc">
+              With over 7 years of experience, I specialize in building scalable web applications
+              and intuitive user interfaces. My passion lies at the intersection of great design
+              and clean, efficient code.
+            </p>
+            <p class="section-desc">
+              I've worked with startups, scale-ups, and enterprise clients across fintech,
+              healthtech, and e-commerce — always focused on delivering real business impact.
+            </p>
+
+            <div class="skill-bars" aria-label="Skill proficiency">
+              <div class="skill-bar-item">
+                <div class="skill-bar-header">
+                  <span>Frontend Development</span><span>95%</span>
+                </div>
+                <div class="skill-bar-track" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" aria-label="Frontend Development 95%">
+                  <div class="skill-bar-fill" style="--pct: 95%"></div>
+                </div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-header">
+                  <span>Backend &amp; APIs</span><span>88%</span>
+                </div>
+                <div class="skill-bar-track" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" aria-label="Backend and APIs 88%">
+                  <div class="skill-bar-fill" style="--pct: 88%"></div>
+                </div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-header">
+                  <span>UI/UX Design</span><span>82%</span>
+                </div>
+                <div class="skill-bar-track" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" aria-label="UI/UX Design 82%">
+                  <div class="skill-bar-fill" style="--pct: 82%"></div>
+                </div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-header">
+                  <span>Cloud &amp; DevOps</span><span>75%</span>
+                </div>
+                <div class="skill-bar-track" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" aria-label="Cloud and DevOps 75%">
+                  <div class="skill-bar-fill" style="--pct: 75%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SERVICES ===================== -->
+    <section class="services section" id="services" aria-labelledby="services-heading">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">What I Do</div>
+          <h2 class="section-title" id="services-heading">Services I <span class="gradient-text">Offer</span></h2>
+          <p class="section-desc centered">
+            End-to-end expertise to bring your product from concept to launch — beautifully and reliably.
+          </p>
+        </div>
+
+        <div class="services-grid" id="services-grid">
+          <!-- Populated securely via JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== WORK / PORTFOLIO ===================== -->
+    <section class="work section" id="work" aria-labelledby="work-heading">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Portfolio</div>
+          <h2 class="section-title" id="work-heading">Featured <span class="gradient-text">Projects</span></h2>
+          <p class="section-desc centered">A curated selection of recent work across different industries.</p>
+        </div>
+
+        <div class="work-filter" role="tablist" aria-label="Project categories" id="work-filter">
+          <!-- Populated via JS -->
+        </div>
+
+        <div class="work-grid" id="work-grid" aria-live="polite">
+          <!-- Populated securely via JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TESTIMONIALS ===================== -->
+    <section class="testimonials section" id="testimonials" aria-labelledby="testimonials-heading">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Reviews</div>
+          <h2 class="section-title" id="testimonials-heading">What Clients <span class="gradient-text">Say</span></h2>
+        </div>
+
+        <div class="testimonials-track" id="testimonials-track" aria-label="Client testimonials">
+          <!-- Populated via JS -->
+        </div>
+
+        <div class="testimonial-dots" id="testimonial-dots" role="tablist" aria-label="Testimonial navigation">
+          <!-- Populated via JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="contact section" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="section-tag">Get In Touch</div>
+            <h2 class="section-title" id="contact-heading">Let's Build Something <span class="gradient-text">Together</span></h2>
+            <p class="section-desc">Have a project in mind? I'd love to hear about it. Send me a message and let's talk.</p>
+
+            <div class="contact-details" id="contact-details">
+              <!-- Populated via JS -->
+            </div>
+          </div>
+
+          <div class="contact-form-wrap glass-card">
+            <h3 class="form-title">Send a Message</h3>
+            <form class="contact-form" id="contact-form" novalidate aria-label="Contact form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="form-name" class="form-label">Full Name</label>
+                  <input
+                    type="text"
+                    id="form-name"
+                    name="name"
+                    class="form-input"
+                    placeholder="Your name"
+                    autocomplete="name"
+                    maxlength="80"
+                    required
+                    aria-required="true"
+                  />
+                  <span class="form-error" id="error-name" aria-live="polite"></span>
+                </div>
+                <div class="form-group">
+                  <label for="form-email" class="form-label">Email Address</label>
+                  <input
+                    type="email"
+                    id="form-email"
+                    name="email"
+                    class="form-input"
+                    placeholder="your@email.com"
+                    autocomplete="email"
+                    maxlength="120"
+                    required
+                    aria-required="true"
+                  />
+                  <span class="form-error" id="error-email" aria-live="polite"></span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="form-subject" class="form-label">Subject</label>
+                <input
+                  type="text"
+                  id="form-subject"
+                  name="subject"
+                  class="form-input"
+                  placeholder="What's this about?"
+                  maxlength="120"
+                  required
+                  aria-required="true"
+                />
+                <span class="form-error" id="error-subject" aria-live="polite"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="form-message" class="form-label">Message</label>
+                <textarea
+                  id="form-message"
+                  name="message"
+                  class="form-input form-textarea"
+                  placeholder="Tell me about your project..."
+                  rows="5"
+                  maxlength="1200"
+                  required
+                  aria-required="true"
+                ></textarea>
+                <span class="form-error" id="error-message" aria-live="polite"></span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-full" id="form-submit-btn">
+                <span class="btn-label">Send Message</span>
+                <span class="btn-icon" aria-hidden="true">→</span>
+              </button>
+
+              <div class="form-success" id="form-success" role="alert" aria-live="assertive" hidden>
+                ✅ Message sent! I'll get back to you within 24 hours.
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <a href="#hero" class="nav-logo footer-logo" aria-label="Alex Morgan Home">
+          <span class="logo-dot"></span>
+          <span>Alex<span class="logo-accent">Morgan</span></span>
+        </a>
+        <nav class="footer-links" aria-label="Footer Navigation">
+          <a href="#about" class="footer-link">About</a>
+          <a href="#services" class="footer-link">Services</a>
+          <a href="#work" class="footer-link">Work</a>
+          <a href="#contact" class="footer-link">Contact</a>
+        </nav>
+        <div class="footer-socials" id="footer-socials" aria-label="Social links">
+          <!-- Populated via JS -->
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">© <span id="footer-year"></span> Alex Morgan. Built with passion &amp; precision.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
